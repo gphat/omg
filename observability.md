@@ -38,15 +38,20 @@ I'm often asked by investors to discuss my thoughts of new or existing monitorin
 
 ## Speaking
 
+### Conference Talks
+
 I speak regularly and conferences across the country promoting observability and thoughtful, empathetic operations.
 
-Here's a recent talk from Monitorama 2016:
+Here's a talk from Monitorama 2016:
 
 <iframe src="https://player.vimeo.com/video/173610034?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/173610034">Monitorama PDX 2016 - Cory Watson - Creating A Culture of Observability at Stripe</a> from <a href="https://vimeo.com/monitorama">Monitorama</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 [Here are the slides if you prefer to flip through them rather than listen to me talk](http://www.slideshare.net/CoryWatson8/building-a-culture-of-observability-at-stripe).
 
+### Podcasts
+
+In March of 2017 I [spoke with Software Engineering Daily](https://softwareengineeringdaily.com/2017/03/15/stripe-observability-with-cory-watson/) about my observability work at Stripe.
 
 # Future
 
