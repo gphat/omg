@@ -61,7 +61,7 @@ That’s our ideal, a span with accompanying metric and log data. Since the worl
 
 SSF is fast to parse, being protobuf. It works over UDP, TCP and also [domain sockets](https://en.wikipedia.org/wiki/Unix_domain_socket) for fast and reliable local delivery. Clients can be async and buffered to stay keep things fast in critical code paths.
 
-If you’ve done this, you’ve got a unified instrumentation mechanism. Your uses of veneur-emit can use the `-ssf` flag to join the party and even begin using veneur-emits flags to contribute trace spans too.
+If you’ve done this, you’ve got a unified instrumentation mechanism. Your uses of veneur-emit can use the `-ssf` flag to join the party and even begin using veneur-emit's flags to contribute trace spans too.
 
 ### Veneur and Storage Agnosticism
 Now for migration. Earlier I told you that spans were the ur-metric. Maybe you didn’t agree. I told you that was ok, right? Here’s why: Veneur takes these primitives and hands them off to one of many **sinks**. If you think spans are the One True Thing™ then you can configure Veneur with [a sink for LightStep](https://github.com/stripe/veneur/tree/master/sinks/lightstep) and be a happy camper. If you prefer the sweet aggregation of metrics you can configure [the Datadog sink](https://github.com/stripe/veneur/tree/master/sinks/datadog) and chart away. Veneur doesn’t require any one storage mechanism and sinks convert to the store’s native form.
