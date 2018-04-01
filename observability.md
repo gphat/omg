@@ -15,7 +15,7 @@ I've spent a lot of my time learning as much as I can about this subject as well
 ## Open Source Work
 
 * [Simple Sensor Format](https://github.com/stripe/veneur/tree/master/ssf) is a novel, new format for transmitting metrics, spans and other observability primitives.
-* [Veneur](https://github.com/stripe/veneur) is a server implementation of [Datadog's](https://datadoghq.com) [DogStatsD](http://docs.datadoghq.com/guides/dogstatsd/) that brings efficient performance and the capability to approximate "global" histogram and timer percentiles using [Ted Dunning's t-digest](https://github.com/tdunning/t-digest) approximate histograms and sets using [HyperLogLogs](https://en.wikipedia.org/wiki/HyperLogLog). [You can read about how Stripe uses it](https://stripe.com/blog/introducing-veneur-high-performance-and-global-aggregation-for-datadog).
+* [Veneur](https://github.com/stripe/veneur) is a server implementation of [Datadog's](https://datadoghq.com) [DogStatsD](http://docs.datadoghq.com/guides/dogstatsd/) that brings efficient performance and the capability to approximate "global" histogram and timer percentiles using [Ted Dunning's t-digest](https://github.com/tdunning/t-digest) approximate histograms and sets using [HyperLogLogs](https://en.wikipedia.org/wiki/HyperLogLog).
 * [Censorinus](https://github.com/gphat/censorinus) is a JVM — by way of Scala, but with no other dependencies — \*StatsD client with support for both [StatsD](https://github.com/etsy/statsd) and [DogStatsD](http://docs.datadoghq.com/guides/dogstatsd/).
 * [datadog-scala](https://github.com/gphat/datadog-scala) is a Scala library for interacting with the [Datadog API](http://docs.datadoghq.com/api/).
 * [Dozens of contributions](https://github.com/datadog/dd-agent/pulls?utf8=✓&q=is%3Apr%20author%3Agphat) to [Datadog's monitoring agent](https://github.com/datadog/dd-agent) and [Integrations SDK](https://github.com/DataDog/integrations-core).
@@ -30,9 +30,9 @@ My frustration with charting tools of the day lead me to create my own: a marvel
 
 ## Professional Work
 
-After joining Twitter in 2012 I quickly found my calling in the Observability team. I [learned, maintained and created some marvelous stuff](https://blog.twitter.com/2013/observability-at-twitter) in that role. My next gig at [Keen IO](https://keen.io) was not specifically observability, but after the lessons learned at Twitter making sure that Keen's systems were as observable as possible was a focus of my work.
+After joining Twitter in 2012 I quickly found my calling in the Observability team. I [learned, maintained and created some marvelous stuff](https://blog.twitter.com/2013/observability-at-twitter) in that role. My next gig at [Keen IO](https://keen.io) was not specifically observability, but after the lessons learned at Twitter making sure that Keen's systems were as observable as possible was a focus of [my work](https://blog.keen.io/post-mortem-the-one-where-we-accidentally-ddosed-ourselves-d26fe43f5be5).
 
-I joined Stripe in 2015 I created an Observability team and worked to change Stripe's culture such that observing our systems was a core concern. In that role I created [Veneur](https://github.com/stripe/veneur), setup an entirely new observability stack with minimal interruption, and contributed to large improvements in reliability and confidence at Stripe. My team is working every day to create better observability tools and products for Stripe's engineers and customers.
+I joined Stripe in 2015 I created an Observability team and worked to change Stripe's culture such that observing our systems was a core concern. In that role I created [Veneur](https://github.com/stripe/veneur), setup an entirely new observability stack with minimal interruption, managed and changed vendors a few times, created [OSS projects](https://stripe.com/blog/introducing-veneur-high-performance-and-global-aggregation-for-datadog), and contributed to large improvements in reliability and confidence at Stripe. My team is working every day to create better observability tools and products for Stripe's engineers and customers.
 
 I'm often asked by investors to discuss my thoughts of new or existing monitoring products, and I enjoy speaking about these tools with others both to learn and provide my thoughts. I've also participated on customer advisory boards, representing my engineering teammates and learning challenges from vendors.
 
@@ -51,7 +51,8 @@ Here's a talk from Monitorama 2016:
 
 ### Podcasts
 
-In March of 2017 I [spoke with Software Engineering Daily](https://softwareengineeringdaily.com/2017/03/15/stripe-observability-with-cory-watson/) about my observability work at Stripe.
+* In March of 2017 I [spoke with Software Engineering Daily](https://softwareengineeringdaily.com/2017/03/15/stripe-observability-with-cory-watson/) about my observability work at Stripe.
+* More in the pipeline!
 
 # Future
 
