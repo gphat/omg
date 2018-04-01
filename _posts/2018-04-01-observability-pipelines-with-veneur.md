@@ -17,7 +17,7 @@ From this limitation and the curiosity of how to scale push, Veneur was born. Ve
 You can learn more about [how to deploy Veneur in a previous post](http://onemogin.com/observability/veneur/veneur-deployment-strategies.html) which details how Veneur can start small in your organization and become the global aggregation mechanism.
 
 ## Unifying Your Observability
-Now that we’ve got the front matter out of the way let’s talk about the primitives that typically make up observability: logs, metrics, and spans. When I’m feeling ostentatious my team calls this the *Grand Unified Theory of Observability*: **Logs, Metrics and Spans are just facets of the same data.**
+Now that we’ve got the front matter out of the way let’s talk about the primitives that typically make up observability: logs, metrics, and spans. When we're feeling ostentatious my team calls this the *Grand Unified Theory of Observability*: **Logs, Metrics and Spans are just facets of the same data.**
 
 Logs are easy to emit and improve, have ample tooling and are friendly to high cardinality. Metrics are small, easily aggregated and lend well to charts. Spans supply causality and structure. Each have a timestamp and some data and it is my position that their differences are largely due to storage concerns and style. As operators of these tools we’ve both imposed our limitations onto our customer engineers and neglected to unify the libraries that engineers use. More on that in the future!
 
