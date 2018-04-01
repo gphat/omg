@@ -33,7 +33,7 @@ Veneur is a polyglot when it comes to instrumentation. As I mentioned before, it
 For all your shells script needs Veneur provides [veneur-emit](https://github.com/stripe/veneur/tree/master/cmd/veneur-emit). With it you can avoid tricks with teeth like this:
 
 ```
-echo "deploys.test.myservice:1|c" | nc -w 1 -u graphite.example.com 8125
+echo "deploys.test.myservice:1|c" | nc -w 1 -u statsd.example.com 8125
 ```
 
 I say “with teeth” because we’ve had to debug a lot of fun inputs due to escaping, ending and other mess due to these frangible patterns. Using veneur-emit means you won’t have to debug these problems all across your infrastructure.
