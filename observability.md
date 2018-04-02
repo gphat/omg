@@ -25,7 +25,7 @@ I've spent a lot of my time learning as much as I can about this subject as well
 * Perl charting library [Chart::Clicker](http://onemogin.com/chart-clicker/), with love to [Infinity Interactive](http://iinteractive.com) for being so supportive and [Stevan Little](https://twitter.com/stevanlittle) for being so inspirational.
 * Hobby Javascript charting library [Clack](http://onemogin.com/clack/).
 
-My frustration with charting tools of the day lead me to create my own: a marvelous Perl module called [Chart::Clicker](http://onemogin.com/chart-clicker/). Over years of development I honed my understanding of visualizations needed for performance and health data. My most recent endeavors are in a hobby Javascript library called [Clack](http://onemogin.com/clack/) meant to explore the best mix of performance and usability.
+My frustration with charting tools of the day lead me to create my own: a marvelous Perl module called [Chart::Clicker](http://onemogin.com/chart-clicker/). Over years of development I honed my understanding of visualizations needed for performance and health data. Later endeavors are in a hobby Javascript library called [Clack](http://onemogin.com/clack/) meant to explore the best mix of performance and usability.
 
 ## Professional Work
 
