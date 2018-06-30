@@ -51,8 +51,9 @@ Here's a talk from Monitorama 2016:
 # Other
 
 * In March of 2017 I [spoke with Software Engineering Daily](https://softwareengineeringdaily.com/2017/03/15/stripe-observability-with-cory-watson/) about my observability work at Stripe.
+* In April of 2018 I [spoke with Software Engineering Daily again](https://softwareengineeringdaily.com/2018/04/23/stripe-observability-pipeline-with-cory-watson/) about observability pipelines.
 * Wrote [a guest post for Honeycomb talking about making people awesome with instrumentation](https://honeycomb.io/blog/2017/01/instrumentation-is-about-making-people-awesome/).
-* Reviewing posts and early books in the observability space.
+* Reviewing posts and early books in the observability space, such as a technical review of [Cindy Sridharan](https://medium.com/@copyconstruct)'s [Distributed Systems Observability](http://distributed-systems-observability-ebook.humio.com).
 
 # Future
 
