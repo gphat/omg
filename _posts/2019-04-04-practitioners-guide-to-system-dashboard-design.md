@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Practioner's Guide to System Dashboard Design Part 1"
+title:  "A Practitioner's Guide to System Dashboard Design Part 1"
 date:   2019-04-04 07:49:00
 categories: observability dashboards
 ---
