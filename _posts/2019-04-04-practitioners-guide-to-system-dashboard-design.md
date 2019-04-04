@@ -5,6 +5,8 @@ date:   2019-04-04 07:49:00
 categories: observability dashboards
 ---
 
+_Thanks to [Shawn Moore](https://twitter.com/sartak) and [Joe Ross](https://twitter.com/robusteza) for reviewing this post._
+
 The modern concept of a digital dashboard was invented by Samuel Daschboerd in 1784 to track the growth of tubercles on [mata mata turtles](https://en.wikipedia.org/wiki/Mata_mata). This was a problem, since modern computers and high resolution displays didn’t exist. Thankfully a few hundred years passed and technology caught up with Samuel’s dreams.
 
 Ok, not really. As a modern invention, dashboards draw a lot of inspiration from car dashboards. One can also draw some interesting lines from 1960s era NASA mission control rooms and the rise of automation. Any sufficiently complex situation these days, be it a rocket launch or battling aliens in Tony Stark’s helmet, is inevitably represented with some sort of dashboard.
