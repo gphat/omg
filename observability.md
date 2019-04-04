@@ -50,10 +50,14 @@ Here's a talk from Monitorama 2016:
 
 [Here are the slides if you prefer to flip through them rather than listen to me talk](http://www.slideshare.net/CoryWatson8/building-a-culture-of-observability-at-stripe).
 
-# Other
+# Podcasts
 
 * In March of 2017 I [spoke with Software Engineering Daily](https://softwareengineeringdaily.com/2017/03/15/stripe-observability-with-cory-watson/) about my observability work at Stripe.
 * In April of 2018 I [spoke with Software Engineering Daily again](https://softwareengineeringdaily.com/2018/04/23/stripe-observability-pipeline-with-cory-watson/) about observability pipelines.
+* In April of 2019 I [spoke with Real World DevOps](https://www.realworlddevops.com/episodes/the-vendor-is-not-the-enemy-with-cory-watson) about going from a customer to a vendor and some observability stuff.
+
+# Other
+
 * Wrote [a guest post for Honeycomb talking about making people awesome with instrumentation](https://honeycomb.io/blog/2017/01/instrumentation-is-about-making-people-awesome/).
 * Reviewing posts and early books in the observability space, such as a technical review of [Cindy Sridharan](https://medium.com/@copyconstruct)'s [Distributed Systems Observability](http://distributed-systems-observability-ebook.humio.com).
 
