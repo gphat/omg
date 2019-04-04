@@ -41,8 +41,7 @@ You’ll likely want to use a [grid design](https://en.wikipedia.org/wiki/Grid_(
 With this prioritized list and a grid armature we can now start to add elements to our dashboard. It’s likely you already have an intuition for positioning, placing the most important element at the top left and working left to right, top to bottom.
 
 ![Importance, top left to bottom right.](/assets/images/dash-importance.png)
-
-_You likely didn't need an illustration of this._
+<br>_You likely didn't need an illustration of this._
 
 This is a common pattern for readers of occidental languages, whose eyes tend to go top left first (Few 107-108)[^1]. It’s important to remember your target audience, however, as some languages work right-to-left or top-to-bottom.[^2]
 
