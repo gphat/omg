@@ -107,7 +107,13 @@ Here is some guidance on how to do evaluation:
 # Closing
 I believe that the CASE method provides teams and organizations a way to discuss the care and feeding of automated alerting. A single engineer can begin evaluating alerts through the CASE lens and from that scale up to an entire org working with teams, management, and incident management programs to keep alerts groomed and valuable. It requires no fancy tools or complex process.
 
-As an industry we must continue to consider the human factors of on call responsibility whilst giving our customers the best experience possible. The tools and practices that we use have a vast opportunity for improvement. I hope that CASE contributes to this improvement!
+As an industry we must continue to consider the human factors of on call responsibility whilst giving our customers the best experience possible. The tools and practices that we use have a vast opportunity for improvement. I hope that CASE contributes to this improvement.
+
+Bask in improved alerting!
+
+<iframe src="https://giphy.com/embed/qISaMW1xwmvNS" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/bird-owl-qISaMW1xwmvNS">via GIPHY</a></p>
+
+# Citations
 
 [^1]: Allspaw, John. “[Considerations for Alert Design.](https://www.slideshare.net/jallspaw/alert-designcac-talk2013)” Monitorama 2013 Portland, OR.
 [^2]: Cavage, Mark. _[There’s Just No Getting Around It: You’re Building A Distributed System](https://queue.acm.org/detail.cfm?id=2482856)_. ACM Queue, 2013.
