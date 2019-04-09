@@ -3,7 +3,7 @@ layout: post
 title:  "The CASE Method: Better Monitoring For Humans"
 date:   2019-04-09 07:49:00
 categories: monitoring
-summary: "A framework used to install a culture in your organization where the existence of an alert is viewed with healthy skepticism."
+summary: "A framework for instilling a culture of healthy skepticism toward monitoring for improved ergonomics, mental models, and attention."
 image: /assets/images/case-logo.png
 draft: true
 ---
