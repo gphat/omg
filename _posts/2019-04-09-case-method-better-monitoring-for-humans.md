@@ -3,7 +3,7 @@ layout: post
 title:  "The CASE Method: Better Monitoring For Humans"
 date:   2019-04-09 07:49:00
 categories: monitoring
-summary: "A framework for instilling a culture of healthy skepticism toward monitoring for improved ergonomics, mental models, and attention."
+summary: "A framework for improved monitoring ergonomics, mental models, and attention."
 image: /assets/images/case-logo.png?124
 draft: true
 ---
