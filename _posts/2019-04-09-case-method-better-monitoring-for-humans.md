@@ -1,18 +1,18 @@
 ---
 layout: post
 title:  "The CASE Method: Better Monitoring For Humans"
-date:   2019-04-08 07:49:00
+date:   2019-04-09 07:49:00
 categories: monitoring
 summary: "The CASE Method: A process for maintaining healthy monitoring."
 image: /assets/images/case-logo.png
 draft: true
 ---
 
-_Thanks to [Kelly Dunn](https://twitter.com/kellyleland), [Arijit Mukherji](https://twitter.com/arijit_mukherji), and [Maxime Petazzoni](https://twitter.com/mpetazzoni) for reviewing this post._
-
 Riiiiiiing! It’s 3am and you’ve just been dreaming about something great and poof: the phone rings. You’re on call this week and something seems to’ve gone awry. Automated systems are beckoning you to assess the situation and take action. Welcome to a critical point in running modern computer systems. Let’s talk about how to make alerting better for humans.
 
 I’d like to introduce a philosophy for monitoring borne from my decades of on-call experience, my role in multiple large observability teams, and heavy influence from Rob Ewaschuk’s seminal [My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit#heading=h.6ammb5h32uqq) — which has since been encoded into the [Google SRE book](https://landing.google.com/sre/sre-book/toc/index.html) — and John Allspaw’s [Considerations for Alert Design](https://www.slideshare.net/jallspaw/alert-designcac-talk2013).
+
+_Thanks to [Kelly Dunn](https://twitter.com/kellyleland), [Arijit Mukherji](https://twitter.com/arijit_mukherji), and [Maxime Petazzoni](https://twitter.com/mpetazzoni) for reviewing this post._
 
 # What is CASE?
 Inspired by [Brendan Gregg’s USE Method](http://www.brendangregg.com/usemethod.html) and [Tom Wilkie’s RED Method](https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/) I have backronymed a method. I call it the CASE Method and it defines 4 key points that a team should consider and maintain when working with automated monitoring:
