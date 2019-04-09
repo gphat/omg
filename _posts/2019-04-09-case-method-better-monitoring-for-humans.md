@@ -26,9 +26,6 @@ Using CASE, an organization will have a healthy skepticism about interrupting hu
 
 To get catchy for a second, the idea is that you need to make a CASE for each alert’s existence. :sunglasses:
 
-![Lots of things interrupt people](/assets/images/case-alerts.png)
-<br>_Lots of things cause problems. Especially ghosts._
-
 # Why do we need this?
 [On call can suck](https://medium.com/@copyconstruct/on-call-b0bd8c5ea4e0). There are a lot of reasons for this and CASE won’t help you fix all of them. It can, however, improve the quality of the things that wake you up in the night. Sneakily encoded into it are a number of organizational processes that may help as well.
 
