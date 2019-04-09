@@ -3,7 +3,7 @@ layout: post
 title:  "The CASE Method: Better Monitoring For Humans"
 date:   2019-04-09 07:49:00
 categories: monitoring
-summary: "The CASE Method: A process for maintaining healthy monitoring."
+summary: "A framework used to install a culture in your organization where the existence of an alert is viewed with healthy skepticism."
 image: /assets/images/case-logo.png
 draft: true
 ---
@@ -23,6 +23,9 @@ Inspired by [Brendan Gregg’s USE Method](http://www.brendangregg.com/usemethod
 * [**E**valuated](#evaluated)
 
 To get catchy for a second, the idea is that you need to make a CASE for each alert’s existence. :sunglasses:
+
+![Lots of things interrupt people](/assets/images/case-logo.png)
+<br>_Lots of things cause problems. Especially ghosts._
 
 # Why do we need this?
 [On call can suck](https://medium.com/@copyconstruct/on-call-b0bd8c5ea4e0). There are a lot of reasons for this and CASE won’t help you fix all of them. It can, however, improve the quality of the things that wake you up in the night. Sneakily encoded into it are a number of organizational processes that may help as well.
