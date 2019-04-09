@@ -24,7 +24,7 @@ Inspired by [Brendan Gregg’s USE Method](http://www.brendangregg.com/usemethod
 
 To get catchy for a second, the idea is that you need to make a CASE for each alert’s existence. :sunglasses:
 
-![Lots of things interrupt people](/assets/images/case-logo.png)
+![Lots of things interrupt people](/assets/images/case-alerts.png)
 <br>_Lots of things cause problems. Especially ghosts._
 
 # Why do we need this?
