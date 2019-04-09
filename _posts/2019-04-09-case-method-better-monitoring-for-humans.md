@@ -5,7 +5,6 @@ date:   2019-04-09 07:49:00
 categories: monitoring
 summary: "A framework for improved monitoring ergonomics, mental models, and attention."
 image: /assets/images/case-logo.png?201
-draft: true
 ---
 
 Riiiiiiing! It’s 3am and you’ve just been dreaming about something great then poof: the phone rings. You’re on call this week and something seems to’ve gone awry. Automated systems are beckoning you to assess the situation and take action. Welcome to a critical point in running modern computer systems. Let’s talk about how to make alerting better for humans.
