@@ -3,6 +3,8 @@ layout: post
 title:  "The CASE Method: Better Monitoring For Humans"
 date:   2019-04-08 07:49:00
 categories: monitoring
+summary: "The CASE Method: A process for maintaining healthy monitoring."
+image: /assets/images/case-logo.png
 draft: true
 ---
 
