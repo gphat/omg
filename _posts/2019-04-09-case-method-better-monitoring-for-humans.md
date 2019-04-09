@@ -4,7 +4,7 @@ title:  "The CASE Method: Better Monitoring For Humans"
 date:   2019-04-09 07:49:00
 categories: monitoring
 summary: "A framework for improved monitoring ergonomics, mental models, and attention."
-image: /assets/images/case-logo.png?124
+image: /assets/images/case-logo.png?125
 draft: true
 ---
 
@@ -15,12 +15,18 @@ I’d like to introduce a philosophy for monitoring borne from my decades of on-
 _Thanks to [Kelly Dunn](https://twitter.com/kellyleland), [Arijit Mukherji](https://twitter.com/arijit_mukherji), and [Maxime Petazzoni](https://twitter.com/mpetazzoni) for reviewing this post._
 
 # What is CASE?
+
+![Lots of things interrupt people](/assets/images/case-alerts.png)
+<br>_Lots of things cause problems. Especially ghosts._
+
 Inspired by [Brendan Gregg’s USE Method](http://www.brendangregg.com/usemethod.html) and [Tom Wilkie’s RED Method](https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/) I have backronymed a method. I call it the CASE Method and it defines 4 key points that a team should consider and maintain when working with automated monitoring:
 
 * [**C**ontext-heavy](#context-heavy)
 * [**A**ctionable](#actionable)
 * [**S**ymptom-based](#symptom-based)
 * [**E**valuated](#evaluated)
+
+Using CASE, an organization will have a healthy skepticism about interrupting humans. Monitoring will be evaluated regularly for value and effectiveness. Humans will be interrupted less and have better mental models.
 
 To get catchy for a second, the idea is that you need to make a CASE for each alert’s existence. :sunglasses:
 
