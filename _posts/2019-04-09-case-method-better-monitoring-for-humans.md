@@ -8,7 +8,7 @@ image: /assets/images/case-logo.png?201
 draft: true
 ---
 
-Riiiiiiing! It’s 3am and you’ve just been dreaming about something great and poof: the phone rings. You’re on call this week and something seems to’ve gone awry. Automated systems are beckoning you to assess the situation and take action. Welcome to a critical point in running modern computer systems. Let’s talk about how to make alerting better for humans.
+Riiiiiiing! It’s 3am and you’ve just been dreaming about something great then poof: the phone rings. You’re on call this week and something seems to’ve gone awry. Automated systems are beckoning you to assess the situation and take action. Welcome to a critical point in running modern computer systems. Let’s talk about how to make alerting better for humans.
 
 I’d like to introduce a philosophy for monitoring borne from my decades of on-call experience, my role in multiple large observability teams, and heavy influence from Rob Ewaschuk’s seminal [My Philosophy on Alerting](https://docs.google.com/document/d/199PqyG3UsyXlwieHaqbGiWVa8eMWi8zzAn0YfcApr8Q/edit#heading=h.6ammb5h32uqq) — which has since been encoded into the [Google SRE book](https://landing.google.com/sre/sre-book/toc/index.html) — and John Allspaw’s [Considerations for Alert Design](https://www.slideshare.net/jallspaw/alert-designcac-talk2013).
 
@@ -16,17 +16,14 @@ _Thanks to [Kelly Dunn](https://twitter.com/kellyleland), [Arijit Mukherji](http
 
 # What is CASE?
 
-![Lots of things interrupt people](/assets/images/case-alerts.png)
-<br>_Lots of things cause problems. Especially ghosts._
-
-Inspired by [Brendan Gregg’s USE Method](http://www.brendangregg.com/usemethod.html) and [Tom Wilkie’s RED Method](https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/) I have backronymed a method. I call it the CASE Method and it defines 4 key points that a team should consider and maintain when working with automated monitoring:
+Inspired by [Brendan Gregg’s USE Method](http://www.brendangregg.com/usemethod.html) and [Tom Wilkie’s RED Method](https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/) I have backronymed a method. I call it **the CASE Method** and it defines four points that a team should consider and maintain when working with automated monitoring:
 
 * [**C**ontext-heavy](#context-heavy)
 * [**A**ctionable](#actionable)
 * [**S**ymptom-based](#symptom-based)
 * [**E**valuated](#evaluated)
 
-Using CASE, an organization will have a healthy skepticism about interrupting humans. Monitoring will be evaluated regularly for value and effectiveness. Humans will be interrupted less and have better mental models.
+Using CASE, an organization will have a healthy skepticism about interrupting humans. Monitoring will be evaluated regularly for value and effectiveness. Humans will have better mental models and greater confidence when alerted.
 
 To get catchy for a second, the idea is that you need to make a CASE for each alert’s existence. :sunglasses:
 
@@ -102,15 +99,15 @@ Sometimes the system being monitored leaves us little choice about a cause-based
 Keep the other parts of CASE in mind when dealing with these situations. Being temporary doesn’t remove the need for thoughtfulness.
 
 # Evaluated
-The changes — new code, new infra, or new… whatever — to our systems introduce new forms of failure (Cook, 3).[^4] Do we still trust that this alert works as expected? As such, we need to regularly evaluate the performance of each alert to ensure that the attributes of CASE are maintained. Listen up management, you can have a strong impact helping your team establish this!
+The changes — new code, new infra, or new… whatever — to our systems introduce new forms of failure (Cook, 3).[^4] Do we still trust that this alert works as expected? Having sharp, recent mental models of your systems and experience responding to some alerts to aid [anticipatory thinking](https://www.getrevue.co/profile/resilience/issues/resilience-roundup-anticipatory-thinking-issue-27-168981) is a key part of a [learning organization](https://en.wikipedia.org/wiki/Learning_organization). Because the faults in our systems will continue to evolve, so must we.
 
-Here is some guidance on how to do evaluation:
+We need to regularly evaluate the performance of each alert to ensure they work the way that we expect. Listen up management, you can have a strong impact helping your team establish this! Here are some ideas for how to do evaluation:
 
+* Leverage [chaos engineering](https://principlesofchaos.org/), [game days](https://www.gremlin.com/community/tutorials/how-to-run-a-gameday/), or other forms of testing to ensure that alerts do what you expect. You can do this within your team without the process of larger incident management machinery!
 * Include collection of data about all relevant alerts that participated in incidents are part of your incident management program. Flag help, harm, irrelevance, confusion and more. Use this as feedback.
 * Healthy alerts fire on occasion and are well exercised. Verify that all the links work and point to relevant context, etc.
 * Alerts that never fire or that fire frequently are unhealthy. Improve or eliminate these. Be wary of both overload and underload!
 * Keep an expiration timestamp on alerts. If an alert expires, reevaluate it against CASE and update the timestamp. Think of this as a freshness date and review with your team regularly.
-* Leverage [chaos engineering](https://principlesofchaos.org/), [game days](https://www.gremlin.com/community/tutorials/how-to-run-a-gameday/), or other forms of testing to ensure that alerts do what you expect. You can do this within your team without the process of larger incident management machinery!
 * Make improvement of alerts easy. Use monitoring as code and keep your alerts in a Git repository. Pull requests help you involve the team as well and you get history for past experiences. This may help remove fear of changing the alert or getting sign off from those that “own” it.
 * Allow feedback on alerts, even if it’s just a quick [Google Form](https://www.google.com/forms/about/) so that responders can signal an alert being unhelpful or noisy. Put a link or call to action in the body of your alert and review the feedback regularly.
 * Establish team norms that those on call have time in their schedule to improve on call during slow periods. Try and leave things better than when you found them!
