@@ -18,7 +18,7 @@ Earlier we discussed the value of time as our X axis in run charts. This is extr
 ![Sources of change](/assets/images/dash-p4-changes.png)
 <br>_Lots of thing can cause change. Pesky ghosts!_
 
-This intersects neatly with system dashboards because _changes_ from humans or automated systems are often the progenitors of system effects. Capturing these events and visualizing them provides our user with
+This intersects neatly with system dashboards because _changes_ from humans or automated systems are often the progenitors of system effects. Capturing these events and visualizing them provides our user with crucial insights into what's being done that may correlate with system behavior.
 
 ![Range chart example](/assets/images/dash-p4-deploy.png)
 <br>_The blue diamond shows that my deploy correlates strongly with a decrease in latency. Yay!_
