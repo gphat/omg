@@ -19,7 +19,6 @@ _Thanks to [Lita Cho](https://twitter.com/litacho), [Shawn Moore](https://twitte
 {% include dashboard-guide.html %}
 
 # Choice of Data, Gardening
-
 You might expect this piece to tell you what specific data to put in your dashboard. Well, fair reader, that’s mostly up to you! Remember our users and their goals from [part 1](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html). Use your list and decide what best fits the bill for what Few describes as the four stages of monitoring information (32)[^1]:
 
 1. Updating high-level situational awareness.
@@ -34,7 +33,6 @@ In general the [RED method](https://www.weave.works/blog/the-red-method-key-metr
 We should also remember that these dashboards are often tracking systems that change frequently. You’ll need to add occasional one-off charts or temporary widgets to track new and interesting KPIs or just data that is important for current issues. Your organization should build in time to regularly look at dashboards with a critical eye and sweep away any artifacts that are no longer useful. Check that one chart you added back when you were leaking file descriptors and ask if it’s really needed anymore. You *know* which one I’m talking about.
 
 # Effectiveness Of Visualization
-
 When you open the palette of widgets for your dashboard, there are probably lots of options. Temptation is high to use the fancy ones! But not all of these are equal, as humans do not perceive all forms of visual information the same. Our user is trying to quickly orient themselves, so our job is to present things in the most efficient way. :
 
 ![Ranking of perceptual accuracy.](/assets/images/dash-p2-accuracy.png)
@@ -116,11 +114,9 @@ Your user may have difficulty interpreting your dashboards if they are not acces
 * What is the target display device? A dashboard for a large TV likely has different needs than one used on a 13” laptop display by an on call engineer. Be sure and use your dashboard during the design phase on an appropriate device.
 
 # Summary
-
 There's a lot to think about when displaying data to our users. There's a lot to consider and this post provides a good explanation as to the thought that designers and engineers creating our system monitoring tools have to take into consideration. The buck doesn't stop there though, as you, the designer, must continue to make good choices when building up your dashboards!
 
 ## Review
-
 * Use KPIs like RED and USE. Your user's goal will dictate any additional metrics.
 * Review dashboards periodically for improvement and cleanup, like [the CASE method](http://onemogin.com/monitoring/case-method-better-monitoring-for-humans.html) but for dashboards!
 * Preattentive attributes like position, length, slope and color can help with quick comprehension. Some are more accurate than others, choose them wisely!
@@ -134,7 +130,6 @@ Please check back later for the next items in my series:
 {% include dashboard-guide.html %}
 
 # Citations
-
 [^1]: Few, Stephen. _Information Dashboard Design_. Analytics Press, 2013.
 [^2]: Mackinlay, Jock D. _Automating the Design of Graphical Presentations of Relational Information._ ACM Transactions on Graphics, Vol. 5, 1986
 [^3]: Cleveland, William S., McGill, Robert. _Graphical Perception and Graphical Methods for Analyzing Scientific Data._ American Association for the Advancement of Science, 1985.
