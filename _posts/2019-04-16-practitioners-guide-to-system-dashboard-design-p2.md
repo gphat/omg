@@ -6,9 +6,11 @@ categories: observability dashboards
 draft: true
 ---
 
-After [part 1](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html) we’ve got a nice grid and proper visual weighting within that grid, we’re on to thinking about the presentation of the data to our user. This is where things often go awry, as many a pixel has been lit in pursuit of catchy graphics. Keep your design decluttered and consistent.
+After [part 1](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html) we’ve got a nice grid and proper visual weighting within that grid. We’re now on to thinking about the presentation of the data to our user. This is where things often go awry, as many a pixel has been lit in pursuit of catchy graphics. Keep your design decluttered and consistent.
 
 Our guiding principle must be the user’s goals and the integrity of the data we’re displaying. Since this will vary widely — counts of users, fleeting time spent in garbage collection, and mercurial error counts — we must build up a framework we can use to make choices.
+
+**To that end, let's explore what it takes to make a good visualization of system metrics.**
 
 _Thanks to [Lita Cho](https://twitter.com/litacho), [Shawn Moore](https://twitter.com/sartak), [Rajesh Raman](https://twitter.com/RealRajeshRaman), and [Joe Ross](https://twitter.com/robusteza) for reviewing this post._
 
@@ -16,10 +18,12 @@ _Thanks to [Lita Cho](https://twitter.com/litacho), [Shawn Moore](https://twitte
 
 # Choice of Data, Gardening
 
-You might expect this piece to tell you what specific data to put in your dashboard. Well, fair reader, that’s mostly up to you. Remember our users and their goals from [part 1](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html). The important signals for your service are up to you and the needs of your users. To that end, you must use your list and decide what best fits the bill for what Few describes as the four stages of monitoring information: (32)[^1]
+You might expect this piece to tell you what specific data to put in your dashboard. Well, fair reader, that’s mostly up to you! Remember our users and their goals from [part 1](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html). The important signals for your service are up to you and the needs of your users. To that end, you must use your list and decide what best fits the bill for what Few describes as the four stages of monitoring information: (32)[^1]
 
 1. Updating high-level situational awareness.
 1. Identifying and focusing on particular items that need attention.
+    1. Update awareness of this item in greater detail
+    1. Determine whether action is required
 1. If action is required, accessing additional information to determine appropriate information.
 1. Response.
 
@@ -44,11 +48,9 @@ These rankings (Mackinlay, 125)[^2] provide a handy guide for determining how ea
 Moving a bit deeper into the form, Cleveland and McGill (830)[^3] ranked tasks by accuracy for us humans, finding position along a *common scale* more accurate than on non-aligned scales. Few (40-41) reinforces this by specifically advising the use of units and appropriate detail for data to avoid unnecessary computations for the user.  For this reason it is best to use common scales, axis and units where possible.
 
 ![Alignment and Unit Axes Example](/assets/images/dash-p2-axes-units-align.png)
-<br>_Three charts of the same data, without units, with units and no longer aligned. The left and middle chart are easy to compare, the middle is easier to understand Alignment and units matter._
+<br>_Three charts of the same data, without units, with units and no longer aligned. The left and middle chart are easy to compare, the middle is easier to understand. Alignment and units matter!_
 
 With this information you should be able to more effectively choose visualizations, picking those that help your reader quickly perceive the data.
-
-[TKTK insert some help in picking visualizations]
 
 # Time
 We’re using run charts heavily, so we should take care with how we present time. In short, charts should use a common time window. If the first chart shows a slice of 1h, anchored by “now” then so should they all. This is especially true when there is a time selector or other “global” control involved. Any deviation from this should be clearly labeled as such. Recall our earlier points about alignment!
@@ -96,6 +98,18 @@ Your user may have difficulty interpreting your dashboards if they are not acces
 * What is the target display device? A dashboard for a large TV likely has different needs than one used on a 13” laptop display by an on call engineer. Be sure and use your dashboard during the design phase on an appropriate device.
 
 # Summary
+
+There's a lot to think about when displaying data to our users. There's a lot to consider and this post provides a good explanation as to the thought that designers and engineers creating our system monitoring tools have to take into consideration. The buck doesn't stop there though, as you, the designer, must continue to make good choices when building up your dashboards!
+
+## Review
+
+* Use KPIs like RED and USE. Your user's goal will dictate any additional metrics.
+* Review dashboards periodically for improvement and cleanup, like [the CASE method](http://onemogin.com/monitoring/case-method-better-monitoring-for-humans.html) but for dashboards!
+* Preattentive attributes like position, length, slope and color can help with quick comprehension. Some are more accurate than others, choose them wisely!
+* Use units everywhere use common scales.
+* Time can be tricky, so use consistent time windows. Label any deviations clearly.
+* Be aware of forced aggregation and choices on display like rates and sums. Clearly label your charts.
+* Consider accessibility in design and data display. Avoid reliance on red and green and ensure sufficient contrast.
 
 {% include dashboard-guide.html %}
 
