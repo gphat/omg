@@ -3,7 +3,7 @@ layout: post
 title:  "Context Improvement in System Dashboard Design"
 date:   2019-04-15 07:49:00
 categories: observability dashboards
-summary: "A Practitioner's Guide to System Dashboard Design Part 3: Context Improvement."
+summary: "A Practitioner's Guide to System Dashboard Design Part 4: Context Improvement."
 image: /assets/images/dash-p4-logo.png?233
 draft: true
 ---
@@ -40,14 +40,18 @@ Some advice on how to implement this well:
 # Norms, Goals, and Agreements
 Some KPIs have acceptable ranges, internal goals, or even contractual obligations. Including this information in the relevant charts can be a part of the visualization (i.e. a dial or range bar) or included as context within the widget. This context helps the user avoid the requirement of what the chart “should” look like, or what impact the current value may have on stakeholders.
 
-![Range chart example](/assets/images/dash-p3-range.png)
-<br>_The current value is 100% we have a clear range through color and position._
+![Example of an SLO value in a chart](/assets/images/dash-p4-slo.png)
+<br>_The SLO for our service is included as a watermark in the chart._
+
+Many tools support this type of watermarking. Adding them provides additional context to the reader so that the time series isn't just an arbitrary value, but a comparison to our expectations. We can extend this further with time shifts, moving averages, or forms of anomaly detection to draw in expected values:
+
+![Example of guidance via time shifting](/assets/images/dash-p4-normal.png)
+<br>_Here's what normal looks like. We seem ok!_
 
 Where a norm or expectation is violated, preemptively highlighting the information for the user so that their eye is drawn to the most important information (Few, 54)[^1].
 
 ![A highlighted SLO violation](/assets/images/dash-p4-highlight.png)
 <br>_We seem to be violating the SLO on this instant chart!_
-
 
 # Flagging Alerts or Other Bad State
 A common use of system dashboards is to diagnose failure, especially in automated monitoring. Our earlier control-rate context can be combined with data from the alerting system. When and how did this fire?
@@ -59,6 +63,18 @@ This information helps our responder understand what brought about the alert, he
 
 # Projections or Other Synthetic Data
 Much of the data we present is direct measurement from our systems. Because of this, you should take special care when presenting data that is projected, predicted, or otherwise synthesized so that the user understands where to place their trust. The [Consumer Financial Protection Bureau provides guidance of deemphasizing such data](https://cfpb.github.io/design-manual/data-visualization/emphasis.html#projected-values).
+
+An example of this consideration is the [fan chart](https://en.wikipedia.org/wiki/Fan_chart_(time_series)).
+
+![](/assets/images/dash-p4-fan.jpg)
+<br>_The estimated value and the range of possible future values helps the user see what may happen._
+
+# Review
+* Our job doesn't stop with just time series. Users need context to understand what else is going on.
+* Colocating event data into time series charts helps our user know what might've changed.
+* The data in our charts can be improved with normal, expected, or objective values to orient the user.
+* Coupling alert information can speed incident response.
+* Using any sort of projection requires careful visualization.
 
 # Citations
 [^1]: Few, Stephen. _Information Dashboard Design_. Analytics Press, 2013.
