@@ -76,6 +76,17 @@ An example of this consideration is the [fan chart](https://en.wikipedia.org/wik
 * Coupling alert information can speed incident response.
 * Using any sort of projection requires careful visualization.
 
+# Summary
+Wow, that’s a lot of words about slapping charts onto a page! I've learned a lot about how to make _good_ dashboards that help my users. Much of this was contrary to my past opinions and advice I've given. Beyond my own growth much of this advice shows how much our tools need to improve, especially in the area of context.
+
+This stuff is important, as in many organizations these dashboards serve as the primary source of information for the health, effectiveness, and sheer _upness_ of critical services. They are also a cultural watering hole for critical functions. Dashboards and charts are resources that multiply the creator’s effort. A few days of thoughtful design can repay as thousands of hours of engineers, leadership, and/or users that are well informed. In many cases these can result in improved response time to problems.
+
+That’s worth your time, right?
+
+I hope you’ve enjoyed this guide as much as I've enjoyed research and writing it. Please check out the sources cited below each part for more in depth reading on this subject.
+
+{% include dashboard-guide.html %}
+
 # Citations
 [^1]: Few, Stephen. _Information Dashboard Design_. Analytics Press, 2013.
 [^2]: Tufte, Edward R. _The Visual Display of Quantitative Information._ Graphics Press, 1998.
