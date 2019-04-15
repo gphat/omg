@@ -86,7 +86,7 @@ Reach for heap maps when you have a line chart that has too many lines to make s
 ![Comparison of line chart and heatmap](/assets/images/dash-p3-heat-compare.png)
 <br>_The line chart is terrible at everything but outliers. The heat map shows where the population is grouped._
 
-Be wary that humans can't easily differentiate more than a few intensitities of color. Few reminds us that more than 5 intensities of a color is the limit for distinctiveness (Few, 86)[^1]. This doesn't mean you should not use them, only that a user's accuracy will suffer.
+Be wary that humans can't easily differentiate more than a few intensities of color. Few reminds us that more than 5 intensities of a color is the limit for distinctiveness (Few, 86)[^1]. This doesn't mean you should not use them, only that a user's accuracy will suffer.
 
 # Gauges, Bullet, Ranges, etc
 Only use a visualization with limits if the data actually has them. For example, displaying requests per second as a gauge is misleading, as it has no maximum! Using these sorts of visualizations can be incredibly helpful when you want to communicate how close a value is to a limit.
