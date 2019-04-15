@@ -4,7 +4,7 @@ title:  "Context Improvement in System Dashboard Design"
 date:   2019-04-15 07:49:00
 categories: observability dashboards
 summary: "A Practitioner's Guide to System Dashboard Design Part 3: Context Improvement."
-image: /assets/images/dash-p4-logo.png?222
+image: /assets/images/dash-p4-logo.png?232
 draft: true
 ---
 
