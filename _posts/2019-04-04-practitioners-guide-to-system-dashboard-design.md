@@ -5,9 +5,9 @@ date:   2019-04-04 07:49:00
 categories: observability dashboards
 ---
 
-_Thanks to [Shawn Moore](https://twitter.com/sartak) and [Joe Ross](https://twitter.com/robusteza) for reviewing this post._
-
 The modern concept of a digital dashboard was invented by Samuel Daschboerd in 1784 to track the growth of tubercles on [mata mata turtles](https://en.wikipedia.org/wiki/Mata_mata). This was a problem, since modern computers and high resolution displays didn’t exist. Thankfully a few hundred years passed and technology caught up with Samuel’s dreams.
+
+_Thanks to [Shawn Moore](https://twitter.com/sartak) and [Joe Ross](https://twitter.com/robusteza) for reviewing this post._
 
 Ok, not really. As a modern invention, dashboards draw a lot of inspiration from car dashboards. One can also draw some interesting lines from 1960s era NASA mission control rooms and the rise of automation. Any sufficiently complex situation these days, be it a rocket launch or battling aliens in Tony Stark’s helmet, is inevitably represented with some sort of dashboard.
 
@@ -15,9 +15,7 @@ But hey, you didn’t come here for a history lesson. Instead, let’s talk abou
 
 There are so many cool doodads, bells, and whistles that it’s hard to know where to start! I’m here to help. We’re going to use the following outline for our tour of dashboard design:
 
-* Structure and Layout (you're reading it)
-* Presentation and Accessibility (COMING SOON)
-* Context Improvement (COMING SOON)
+{% include dashboard-guide.html %}
 
 # Structure And Layout
 Stop everything and isolate two questions: who is your target audience and what are their goals?
@@ -80,8 +78,7 @@ Let's review the things we picked up here:
 
 I encourage you to check back later for the next items in my series:
 
-* Presentation and Accessibility (COMING SOON)
-* Context Improvement (COMING SOON)
+{% include dashboard-guide.html %}
 
 # Citations & Notes
 [^1]: Few, Stephen. _Information Dashboard Design_. Analytics Press, 2013.
