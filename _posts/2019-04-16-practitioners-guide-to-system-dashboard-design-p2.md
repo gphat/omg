@@ -76,11 +76,11 @@ This is usually done via aggregation: showing an average, sum, or something simi
 Consult your tool’s documentation for how this works! We’ll cover concerns about this when we talk about specific chart types.
 
 ## Aside: Rates and Sums
-This is, in my experience, one of the most asked about problems in system dashboards. Showing a counter as either a rate or a sum can have a large effect on the user’s understanding. If you’re viewing the number of errors as a rate then each point on the chart will be the summed count of errors divided by the time elapsed. Viewing as a sum will, of course, be the sum.
+This is, in my experience, one of the most asked about problems in system dashboards. Showing a counter as either a rate or a sum can have a large effect on the user’s understanding. If you’re viewing the number of errors as a rate then each point on the chart will be the summed count of errors divided by the time elapsed. Viewing as a sum will, of course, be the sum. This means the shape of the data should be the same, only the scale differs.
 
-Each of these views have interesting effects on the data. At longer time scales the rate will be smoothed out by a larger denominator of time. Sums on the other hand will grow because they are totaling up more time.
+When using rate or sum it is advised that you make the distinction very clear from the title of the chart. Work with your user to choose the form that best suits their needs when choosing between rate and sum. What do they expect to see?
 
-**When using rate or sum it is advised that you make the distinction very clear from the title of the chart.**
+**Note**: Be mindful of rate and sum when interacting with aggregation!
 
 ## Warning: Missing Data
 If something goes awry in your measurements you may miss some data points. This can be problematic if your user is assuming regular data points! If this happens, be wary of interpolation. Commonly, system dashboard tools use linear interpolation to connect missing data. Sometimes they are completely unaware the data is missing at all. Sometimes the resolution of the data changes.
