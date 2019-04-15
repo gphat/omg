@@ -3,6 +3,8 @@ layout: post
 title:  "A Practitioner's Guide to System Dashboard Design Part 1"
 date:   2019-04-04 07:49:00
 categories: observability dashboards
+summary: "A Practitioner's Guide to System Dashboard Design Part 1: Structure and Layout."
+image: /assets/images/dash-p1-logo.png?201
 ---
 
 The modern concept of a digital dashboard was invented by Samuel Daschboerd in 1784 to track the growth of tubercles on [mata mata turtles](https://en.wikipedia.org/wiki/Mata_mata). This was a problem, since modern computers and high resolution displays didn’t exist. Thankfully a few hundred years passed and technology caught up with Samuel’s dreams.

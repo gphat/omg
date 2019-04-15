@@ -3,6 +3,8 @@ layout: post
 title:  "Presentation and Accessibility in System Dashboard Design"
 date:   2019-04-15 07:49:00
 categories: observability dashboards
+summary: "A Practitioner's Guide to System Dashboard Design Part 1: Presentation And Accessibility."
+image: /assets/images/dash-p1-logo.png?201
 draft: true
 ---
 
