@@ -12,6 +12,28 @@ With a strong layout and helpful visualizations our next goal is to orient the u
 
 {% include dashboard-guide.html %}
 
+# Basics: Text
+
+Humans are pretty good at reading. Those that make the dashboards often lean toward terseness. In Part 2 we covered [Scale and Units](http://localhost:4000/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#scale-and-units). Labeling our data and considering the _form_ of that label can yield comprehension improvements.
+
+But let's not get too deep here. Label your damn charts better! There's no charge for letters. Imagine you're a new operator who's just been paged for the first time. What do you need to know?
+
+![Comparison of charts with and without labels](/assets/images/dash-p4-text.png)
+<br>_The left chart has no effort. The right side has reasonable labels to help the user understand the context of the visualization._
+
+# Basics: Next Steps
+
+If a user wants to know more about this visualization, how can they get there? A common pattern is clicking on the title to open a fullscreen version that may allow further slicing and dicing. This a convenient place to put data tables or other helpful information:
+
+![Full screen with table](/assets/images/dash-p4-fullscreen.png)
+<br>_Opening the chart in full screen gives us new tools since the user has demonstrated an interest in further digging._
+
+Seeing a bad thing in a chart might lead to another tool or to notifying teammates. Why not embed these into a menu on the chart?
+
+![Chart action menu example](/assets/images/dash-p4-chart-actions.png)
+<br>_A menu could take you to an exception catcher, Slack sharing, or beginning the incident process._
+
+
 # Human Actions, Control Data
 Earlier we discussed the value of time as our X axis in run charts. This is extremely helpful for readers in that it shows change over time, but the passage of time isn’t the _causal_ factor in our data. For that we need more context. Tufte suggests improvement by “smuggling additional variables into the graphic design” (38) to increase the causal explanations for the reader.[^2]
 
