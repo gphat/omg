@@ -94,7 +94,7 @@ In a fit of wonkery, I actually contacted [Stephen Few](https://www.perceptualed
 How interesting! To Stephen's point I wasn't sure _how_ to do this in software. To solve that, I sketched it.
 
 ![How to visualize changing intervals and missing data](/assets/images/dash-p2-missing.jpg)
-<br>_The middle section is faster intervals. We're missing some data on either side._
+<br>_The middle section is faster intervals. We're missing some data on either side. Missing data does not connect. The pink highlight is informational and would not be in the chart the user sees._
 
 You might wonder why no dashboard packages do this for you? Mostly because they don't know if data is missing or not. We commonly infer the interval that metrics come in, and in a modern world of ephemeral containers these metrics can come and go in a flash. A tricky problem for sure, and something to aspire to.
 
