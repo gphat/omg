@@ -48,7 +48,7 @@ Tufte suggests improvement by “smuggling additional variables into the graphic
 This [control plane data](https://en.wikipedia.org/wiki/Control_plane) is much lower rate than the signals we measure in our systems. Ensuring that such changes are instrumented and available in the same place as your dashboards signals should be a high priority as it may significantly improve how quickly our users can accomplish their goals.
 
 ## Instrumentation: Here Be Dragons
-Unfortunately most tools for system dashboards have spotty support for this data, often called "annotations". The events tend to be hard to reuse, untyped, and often assumed _instantaneous_. Some packages support a start and end event for things like deploys which are often time take to be unveiled.
+Unfortunately most tools for system dashboards have spotty support for this data, often called "annotations". The events tend to be hard to reuse, untyped, and often assumed _instantaneous_. Some packages support a start and end event for things like deploys which are often stepped, taking time to complete.
 
 Furthermore, tooling for passing these annotations to your dashboards is spotty and often requires hand instrumenting dozens of disparate systems. Then you must find a way to connect the relevant events into dashboards. Eek!
 
