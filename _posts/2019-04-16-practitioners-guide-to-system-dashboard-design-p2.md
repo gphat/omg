@@ -91,10 +91,12 @@ In a fit of wonkery, I actually contacted [Stephen Few](https://www.perceptualed
 
 > If you’re display[ing] values along a timeline, that timeline usually exhibits intervals that are consistent. As such, they are evenly spaced. If the interval changes, the the spacing between intervals should also change accordingly to visually indicate this change and should remain consistent unless the size of the interval changes again, at which time the spacing would change again. Values associated with consecutive intervals of time should be connected with a line, but when intervals are missing values for any reason, the line should not continue through those intervals. If values are collected intermittently (e.g., only when particular events occur), rather than at regular intervals, then they should not be connected with a line. A simple data point (e.g., a dot) or a bar should be used to encode the values in cases like this. Good luck in finding a tool that can handle this.
 
-How interesting! To Stephen's point I wasn't even sure how to do this in software. To solve that, I sketched it.
+How interesting! To Stephen's point I wasn't sure _how_ to do this in software. To solve that, I sketched it.
 
 ![How to visualize changing intervals and missing data](/assets/images/dash-p2-missing.jpg)
 <br>_The middle section is faster intervals. We're missing some data on either side._
+
+You might wonder why no dashboard packages do this for you? Mostly because they don't know if data is missing or not. We commonly infer the interval that metrics come in, and in a modern world of ephemeral containers these metrics can come and go in a flash. A tricky problem for sure!
 
 # General Guidance
 Some other great bits:
