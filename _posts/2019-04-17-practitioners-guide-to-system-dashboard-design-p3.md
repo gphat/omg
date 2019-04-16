@@ -33,7 +33,7 @@ Line charts are well suited to most data you’ll be displaying. The line chart 
 ![A line chart with clear shape](/assets/images/dash-p3-line1.png)
 <br>_The shape is clear. Something is happening to our latency!_
 
-Line charts are popular visualizations because they embody many [pre-attentive attributes](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#effectiveness-of-visualization) with a minimum amount of pixels. Lines give us slope and angle, position, and color. Our user can get lots of information without thinking hard. We can even get fancy and use line width and intensity to draw attention:
+Line charts are popular visualizations because they embody many [pre-attentive attributes](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#effectiveness-of-visualization) with a minimum amount of pixels. Lines give us slope and angle, position, and color to derive lots of information without thinking hard. We can even get fancy and use line width and intensity to draw attention:
 
 ![Example of line thickness and intensity for attention](/assets/images/dash-p3-line4.png)
 <br>_The brown line is clearly the important one here._
@@ -44,7 +44,7 @@ Before you close this tab and make everything a line chart, there are a few  thi
 ![A line chart with too many lines](/assets/images/dash-p3-line2.png)
 <br>_The lines are so close as to be hard to differentiate._
 
-Line charts _interpolate_ data between two points with a line. This is desirable in most cases, since the shape that provides aids perception. It can also hide missing information or the opposite; make us think we have data we really don't Take our example line chart from earlier, now with points at each reading:
+Line charts _interpolate_ data between two points with a line. This is desirable in most cases, since the shape that provides aids perception. It can also hide missing information or the opposite; make us think we have data we really don't. Take our example line chart from earlier, now with points at each reading:
 
 ![A line chart with points at each measurement](/assets/images/dash-p3-line3.png)
 <br>_The points show that we only get one reading at each change in latency._
