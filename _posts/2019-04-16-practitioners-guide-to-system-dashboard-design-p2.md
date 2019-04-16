@@ -42,6 +42,8 @@ These human quantitative perceptual task rankings (Mackinlay, 125)[^2] provide a
 ![Pre-attentive Attributes Example!](/assets/images/dash-p2-preattentive.png)
 <br>_Examples of pre-attentive attributes You can see these without even thinking about it!._
 
+## Scale and Units
+
 Moving a bit deeper into the form, Cleveland and McGill (830)[^3] ranked tasks by accuracy for us humans, finding position along a *common scale* more accurate than on non-aligned scales. Few (40-41) reinforces this by specifically advising the use of units and appropriate detail for data to avoid unnecessary computations for the user.  For this reason it is best to use common scales, axis and units where possible.
 
 ![Alignment and Unit Axes Example](/assets/images/dash-p2-axes-units-align.png)
