@@ -62,7 +62,7 @@ Recall our earlier points about alignment, as it also applies horizontally. Widg
 ## Sneaky Aggregation
 Be aware that many visualizations will need to deal with aggregation that happens _automatically_.
 
-For systems work our dashboards must deal with wildly varying time windows as our users scoot around. The default for most system dashboards is a “current” view showing something ranging from the last hour to the last fifteen minutes. Assuming ten second intervals, every hour will contain 360 data points! Because there are only so many usable pixels for each of our precious little charts, dashboarding tools must make decisions about how to fit all those data points in a narrow in a small box.
+For systems work our dashboards must deal with wildly varying time windows as our users scoot around. The default for most system dashboards is a “current” view showing something ranging from the last hour to the last fifteen minutes. Assuming ten second intervals, every hour will contain 360 data points! Because there are only so many usable pixels for each of our precious little charts, dashboarding tools must make decisions about how to fit all those data points in a small box.
 
 ![Automated aggregation example](/assets/images/dash-p2-aggregation.png)
 <br>_The top chart covers 15 minutes, the bottom 1 week. Note how we completely lose the periodic increase in latency due to the automated average aggregation. The resolution is shown to the right of the chart title._
