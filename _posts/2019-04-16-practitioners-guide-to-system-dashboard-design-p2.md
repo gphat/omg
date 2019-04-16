@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Presentation and Accessibility in System Dashboard Design"
-date:   2019-04-15 07:49:00
+date:   2019-04-16 07:49:00
 categories: observability dashboards
 summary: "A Practitioner's Guide to System Dashboard Design Part 2: Presentation And Accessibility."
 image: /assets/images/dash-p2-logo.png?222
-draft: true
 ---
 
 After [part 1](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html) we’ve got a nice grid and proper visual weighting within that grid. We’re now on to thinking about the presentation of the data to our user. This is where things often go awry, as many a pixel has been lit in pursuit of catchy graphics. Keep your design decluttered and consistent.
