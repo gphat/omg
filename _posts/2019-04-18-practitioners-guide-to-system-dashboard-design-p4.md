@@ -57,7 +57,7 @@ Some advice on how to implement this well:
 * Leverage common outputs like [CloudTrail Events](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html) and CI/CD systems.
 * Try and reuse events rather than having users mint their own that only work in their dashboards.
 * Mind clutter, too many events is as bad as none!
-* Provide a link in the event for your user to follow in any events so that they can click through and find more information. This provides the user context but avoids turning your dashboarding tool into an administrative interface.
+* Provide a link in the event for your user to follow to find more information. This provides the user context but avoids turning your dashboarding tool into an administrative interface. Less is more if they can click on it.
 
 # Norms, Goals, and Agreements
 Some KPIs have acceptable ranges, internal goals, or even contractual obligations. Including this information in the relevant charts can be a part of the visualization (i.e. a dial or range bar) or included as context within the widget. This context helps the user avoid the requirement of what the chart “should” look like, or what impact the current value may have on stakeholders.
