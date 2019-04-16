@@ -96,7 +96,7 @@ How interesting! To Stephen's point I wasn't sure _how_ to do this in software. 
 ![How to visualize changing intervals and missing data](/assets/images/dash-p2-missing.jpg)
 <br>_The middle section is faster intervals. We're missing some data on either side._
 
-You might wonder why no dashboard packages do this for you? Mostly because they don't know if data is missing or not. We commonly infer the interval that metrics come in, and in a modern world of ephemeral containers these metrics can come and go in a flash. A tricky problem for sure!
+You might wonder why no dashboard packages do this for you? Mostly because they don't know if data is missing or not. We commonly infer the interval that metrics come in, and in a modern world of ephemeral containers these metrics can come and go in a flash. A tricky problem for sure, and something to aspire to.
 
 # General Guidance
 Some other great bits:
