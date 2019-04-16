@@ -101,7 +101,7 @@ You might wonder why no dashboard packages do this for you? Mostly because they 
 # General Guidance
 Some other great bits:
 
-* Favor soft colors found in nature. Save the use of vivid, attention grabbing colors for thresholds or other health information to which you want to call attention. [Stephen Few’s Practical Rules for Using Color in Charts](http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf) is an excellent guide.
+* Favor soft colors found in nature. Save the use of vivid, attention grabbing colors for thresholds or other health information you want to call attention to. [Stephen Few’s Practical Rules for Using Color in Charts](http://www.perceptualedge.com/articles/visual_business_intelligence/rules_for_using_color.pdf) is an excellent guide.
 * Mute or eliminate background grids, when possible. Consider lightening them. Keep the [principle of closure](https://en.wikipedia.org/wiki/Principles_of_grouping#Closure) in mind and eliminate some of those boxes.
 * Avoid faked perspective, such as in 3D graphics that serve no data purpose.
 
