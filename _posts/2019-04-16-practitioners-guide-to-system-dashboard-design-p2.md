@@ -50,7 +50,7 @@ Moving a bit deeper into the form, Cleveland and McGill (830)[^3] ranked tasks b
 With this information you should be able to more effectively choose visualizations, picking those that help your reader quickly perceive the data.
 
 # Time
-We’re using run charts heavily, so we should take care with how we present time. Charts should use a common time window. If the first chart shows a slice of 1h, anchored by “now” then so should they all. This is especially true when there is a time selector or other “global” control involved.
+We’re using [run charts](https://en.wikipedia.org/wiki/Run_chart) heavily, so we should take care with how we present time. Charts should use a common time window. If the first chart shows a slice of 1 hour anchored by “now” then so should they all. This is especially true when there is a time selector or other “global” control involved.
 
 Many dashboard tools provide a helpful “cursor” when you are hovering your mouse over a chart, pointing to that same instant in other charts nearby. This can both orient the user’s understanding of time as well as make clear any deviations in the relationship between time and space, as evidenced in this example where one chart is wider than others:
 
