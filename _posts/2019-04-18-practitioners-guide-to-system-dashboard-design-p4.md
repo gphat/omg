@@ -35,12 +35,12 @@ Seeing a bad thing in a chart might lead to another tool or to notifying teammat
 
 
 # Human Actions, Control Data
-Earlier we discussed the value of time as our X axis in run charts. This is extremely helpful for readers in that it shows change over time, but the passage of time isn’t the _causal_ factor in our data. For that we need more context. Tufte suggests improvement by “smuggling additional variables into the graphic design” (38) to increase the causal explanations for the reader.[^2]
+Earlier we discussed the value of time as our X axis in run charts. This is extremely helpful for readers in that it shows change over time, but the passage of time isn’t the _causal_ factor in our data. For that we need more context.
 
 ![Sources of change](/assets/images/dash-p4-changes.png)
 <br>_Lots of thing can cause change. Pesky ghosts!_
 
-This intersects neatly with system dashboards because _changes_ from humans or automated systems are often the progenitors of system effects. Capturing these events and visualizing them provides our user with crucial insights into what's being done that may correlate with system behavior.
+Tufte suggests improvement by “smuggling additional variables into the graphic design” (38) to increase the causal explanations for the reader.[^2] This intersects neatly with system dashboards because _changes_ from humans or automated systems are often the progenitors of system effects. Capturing these events and visualizing them provides our user with crucial insights into what's being done that may correlate with system behavior.
 
 ![Range chart example](/assets/images/dash-p4-deploy.png)
 <br>_The blue diamond shows that my deploy correlates strongly with a decrease in latency. Yay!_
