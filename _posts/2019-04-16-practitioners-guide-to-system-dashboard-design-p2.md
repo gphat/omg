@@ -32,7 +32,7 @@ In general the [RED method](https://www.weave.works/blog/the-red-method-key-metr
 We should also remember that these dashboards are often tracking systems that change frequently. You’ll need to add occasional one-off charts or temporary widgets to track new and interesting KPIs or just data that is important for current issues. Your organization should build in time to regularly look at dashboards with a critical eye and sweep away any artifacts that are no longer useful. Check that one chart you added back when you were leaking file descriptors and ask if it’s really needed anymore. You *know* which one I’m talking about.
 
 # Effectiveness Of Visualization
-When you open the palette of widgets for your dashboard, there are probably lots of options. Temptation is high to use the fancy ones! But not all of these are equal, as humans do not perceive all forms of visual information the same. Our user is trying to quickly orient themselves, so our job is to present things in the most efficient way. :
+When you open the palette of widgets for your dashboard, there are probably lots of options. Temptation is high to use the fancy ones! But not all of these are equal, as humans do not perceive all forms of visual information the same. Our user is trying to quickly orient themselves, so our job is to present things in the most efficient way.
 
 ![Ranking of perceptual accuracy.](/assets/images/dash-p2-accuracy.png)
 <br>_Ranking of perceptual tasks in order of accuracy._
