@@ -20,7 +20,7 @@ Wait, a table isn’t a visualization is it? Heck yes it is! Few[^1] reminds us 
 ![Table visualization example](/assets/images/dash-p3-table.png)
 <br>_The trusty table._
 
-Tables are common and well-understood visualizations that excel when looking up a value. The above table makes finding a value and the dimensions related to it very easy. This version may be too dense for a system dashboard, but we can adapt it into a "single value" like so:
+Tables are common and well-understood visualizations that excel[^2] when looking up a value. The above table makes finding a value and the dimensions related to it very easy. This version may be too dense for a system dashboard, but we can adapt it into a "single value" like so:
 
 ![Instant values in a table](/assets/images/dash-p3-instant.png)
 <br>_A table compressed to something widget-worthy._
@@ -28,12 +28,12 @@ Tables are common and well-understood visualizations that excel when looking up 
 If the user needs to know a single value such as the sum, average, or “instant” then using simple numbers or tables is an excellent fit.
 
 # Line Charts
-Line charts are well suited to most data you’ll be displaying. The line chart begins with points, then connects the points with a line. This is worth saying out loud here because on a run chart this interpolation of data gives the user a sense of shape over time. You’ll commonly hear people say that a metric is trending up or down as they watch updates.
+Line charts are well suited to most data you’ll be displaying. The line chart begins with points, then connects the points with a line. This is worth saying out loud here because on a [run chart](https://en.wikipedia.org/wiki/Run_chart) this interpolation of data gives the user a sense of shape over time. You’ll commonly hear people say that a metric is trending up or down as they watch updates.
 
 ![A line chart with clear shape](/assets/images/dash-p3-line1.png)
 <br>_The shape is clear. Something is happening to our latency!_
 
-Line charts are popular visualizations because they embody many pre-attentive attributes[TKTK] with a minimum amount of pixels. Lines give us slope and angle, position, and color. Our user can get lots of information without thinking hard. We can even get fancy and use line width and intensity to draw attention:
+Line charts are popular visualizations because they embody many [pre-attentive attributes](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#effectiveness-of-visualization) with a minimum amount of pixels. Lines give us slope and angle, position, and color. Our user can get lots of information without thinking hard. We can even get fancy and use line width and intensity to draw attention:
 
 ![Example of line thickness and intensity for attention](/assets/images/dash-p3-line4.png)
 <br>_The brown line is clearly the important one here._
@@ -120,3 +120,4 @@ Use line charts, they are great! Single value or tabular charts are excellent fo
 
 # Citations
 [^1]: Few, Stephen. _Information Dashboard Design_. Analytics Press, 2013.
+[^2]: No pun was intended, honestly.
