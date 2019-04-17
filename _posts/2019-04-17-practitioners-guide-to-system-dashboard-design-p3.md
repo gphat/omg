@@ -72,7 +72,7 @@ Where line charts show shapes, bar charts show “exact” values. For most syst
 ![Bar chart example](/assets/images/dash-p3-bar1.png)
 <br>_We can easily compare these two time series using bars. More would be tough._
 
-The bar chart aids comparison of values at each interval through clear interval association and easy comparison of length by the user.
+The bar chart aids comparison of values at each interval through clear interval association and easy comparison of length by the user. Choosing a bar chart therefore means that your user's goal is the comparison of a few values over other concerns.
 
 Be careful to avoid [moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_pattern). This can happen when your bars are too small and evenly spaced. Do include a little space between bars to aid the visual separation, as seen above.
 
