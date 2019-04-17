@@ -55,7 +55,7 @@ Some advice on how to implement this well:
 
 * Leverage common outputs like [CloudTrail Events](https://docs.aws.amazon.com/awscloudtrail/latest/userguide/cloudtrail-user-guide.html) and CI/CD systems.
 * Try and reuse events rather than having users mint their own that only work in their dashboards.
-* Mind clutter, too many events is as bad as none!
+* Be careful of clutter, too many events is as bad as none!
 * Provide a link in the event for your user to follow to find more information. This provides the user context but avoids turning your dashboarding tool into an administrative interface. Less is more if they can click on it.
 
 # Norms, Goals, and Agreements
