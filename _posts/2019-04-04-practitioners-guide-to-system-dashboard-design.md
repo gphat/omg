@@ -78,7 +78,7 @@ Let's review the things we picked up here:
 * Put important information in important places
 * Use a grid and favor charts that are a bit wider than tall
 
-I encourage you to check back later for the next items in my series:
+Please read on for the next items in my series:
 
 {% include dashboard-guide.html %}
 

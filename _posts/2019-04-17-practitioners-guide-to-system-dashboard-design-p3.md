@@ -119,6 +119,10 @@ Before you flame me for missing some weird visualization or an option that your 
 
 Use line charts, they are great! Single value or tabular charts are excellent for instant/single values. Bars make for great comparisons of small numbers of series and heat maps have some utility.
 
+Please read on for the next items in my series:
+
+{% include dashboard-guide.html %}
+
 # Citations
 [^1]: Few, Stephen. _Information Dashboard Design_. Analytics Press, 2013.
 [^2]: No pun was intended, honestly.
