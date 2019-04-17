@@ -102,7 +102,7 @@ Sadly, I am not aware of any tools that allow the use of [bullet graphs](https:/
 # Others
 Some that don’t deserve a whole section.
 * Pie charts: Don’t. Humans generally can’t understand the area of a pie slice. Use bars.
-* Donut charts: Eh, the are mostly cute ways of showing a single value. Or a pie chart with a hole in it.
+* Donut charts: Mostly cute ways of showing a single value. Or a pie chart with a hole in it.
 * Stacked Line Charts: Area charts, but worse since the lack of area fill makes it a surprise. Avoid.
 * Flame graphs: Great for some uses cases, not really in scope for system dashboards, more for profilers.
 * Sparklines: Great to supplement single values, but often lack context without the familiar bits of a line chart. Few proposes what he calls _sparkstrips_ that add colored bands colored or hues to orient the reader. Sadly I don't know of any tools that support these improvements.
