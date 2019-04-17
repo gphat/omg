@@ -105,7 +105,7 @@ Some that don’t deserve a whole section.
 * Donut charts: Mostly cute ways of showing a single value. Or a pie chart with a hole in it.
 * Stacked Line Charts: Area charts, but worse since the lack of area fill makes it a surprise. Avoid.
 * Flame graphs: Great for some uses cases, not really in scope for system dashboards, more for profilers.
-* Sparklines: Great to supplement single values, but often lack context without the familiar bits of a line chart. Few proposes what he calls _sparkstrips_ that add colored bands colored or hues to orient the reader. Sadly I don't know of any tools that support these improvements.
+* Sparklines: Great to supplement single values, but often lack context without the familiar bits of a line chart. Few proposes what he calls _sparkstrips_ that add bands of colored or hue to orient the reader. Sadly I don't know of any tools that support these improvements.
 * Box plots: Not common in our tools
 * Dot plots: Use bars. May have some use cases for rare data over a long period?
 * Scatter plots: Rad for correlation, but that’s a specialized case that we’re not covering here.
