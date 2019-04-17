@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "What Charts To Use in System Dashboard Design"
-date:   2019-04-15 07:49:00
+date:   2019-04-17 07:49:00
 categories: observability dashboards
 summary: "A Practitioner's Guide to System Dashboard Design Part 3: What Charts To Use."
 image: /assets/images/dash-p3-logo.png?222
-draft: true
 ---
 
 With [Part 1: Structure and Layout](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html) and [Part 2: Presentation and Accessibility](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html) you're probably itching to have some damned dashboards made. Enough theory, which chart should you use?

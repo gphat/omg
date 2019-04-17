@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A Practitioner's Guide to System Dashboard Design Part 1"
+title:  "Structure and Layout in System Dashboard Design"
 date:   2019-04-04 07:49:00
 categories: observability dashboards
 summary: "A Practitioner's Guide to System Dashboard Design Part 1: Structure and Layout."

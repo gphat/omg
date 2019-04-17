@@ -1,11 +1,10 @@
 ---
 layout: post
 title:  "Context Improvement in System Dashboard Design"
-date:   2019-04-15 07:49:00
+date:   2019-04-17 07:49:00
 categories: observability dashboards
 summary: "A Practitioner's Guide to System Dashboard Design Part 4: Context Improvement."
 image: /assets/images/dash-p4-logo.png?233
-draft: true
 ---
 
 With a strong layout and helpful visualizations our next goal is to orient the user with as much context as possible. Failing to provide any context is one of the most common mistakes in creating dashboards (Few 38)[^1]. The context our user needs often comes from other sources not included in our carefully considered charts.
