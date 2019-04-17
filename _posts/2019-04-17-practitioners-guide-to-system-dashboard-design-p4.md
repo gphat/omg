@@ -79,7 +79,7 @@ Since we know these limits and expectations we can go a step further and process
 We've gone from an anonymous line on a chart to a situation with lots of context and clear guidance as to the state of the system. Our SLO is being violated!
 
 # Flagging Alerts or Other Bad State
-A common use of system dashboards is to diagnose failure, especially in response alerting. Our earlier control-rate context can be combined with data from the alerting system. When and how did this fire?
+A common use of system dashboards is to diagnose failure, especially in response to alerting. Our earlier control-rate context can be combined with data from the alerts. When and how did this fire?
 
 ![Example of alert context](/assets/images/dash-p4-bad.png)
 <br>_Timeline annotations for alerts, highlighted violations, and coloration of values over a threshold!_
