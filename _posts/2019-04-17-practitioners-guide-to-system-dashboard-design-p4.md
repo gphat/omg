@@ -95,17 +95,19 @@ An example of this consideration is the [fan chart](https://en.wikipedia.org/wik
 <br>_The estimated value and the range of possible future values helps the user see what may happen._
 
 # Review
-* Our job doesn't stop with just time series. Users need context to understand what else is going on.
-* Spent some quality time labeling your charts with titles, subtitles, and whatever else you can find.
-* Colocating event data into time series charts helps our user know what might've changed.
+* Spend some quality time labeling your charts with titles, subtitles, and whatever else you can find.
+* Our job doesn't stop with just time series. Users need _context_ to understand what else is going on. That context comes from all over our organization.
+* Colocating event data into time series charts helps our user know what might've changed. These events are observability data, and arguably have better signal-to-noise ratios.
 * The data in our charts can be improved with normal, expected, or objective values to orient the user.
 * Coupling alert information can speed incident response.
 * Using any sort of projection requires careful visualization.
 
 # Summary
-Wow, that’s a lot of words about slapping charts onto a page! I've learned a lot about how to make _good_ dashboards that help my users. Much of this was contrary to my past opinions and advice I've given. Beyond my own growth much of this advice shows how much our tools need to improve, especially in the area of context.
+Wow, this and the other parts of the series have been a lot of words about slapping charts onto a page! I've learned a lot about how to make _good_ dashboards that help my users. Much of this was contrary to my past opinions and advice I've given. Beyond my own growth much of this advice shows how much our tools need to improve, especially in the area of context.
 
-This stuff is important, as in many organizations these dashboards serve as the primary source of information for the health, effectiveness, and sheer _upness_ of critical services. They are also a cultural watering hole for critical functions. Dashboards and charts are resources that multiply the creator’s effort. A few days of thoughtful design can repay as thousands of hours of engineers, leadership, and/or users that are well informed. In many cases these can result in improved response time to problems.
+This stuff is **important**. Many organizations rely on these dashboards as the primary source of information for the health, effectiveness, and sheer _upness_ of critical services. They are also a cultural watering hole for engineering organizations. In many cases, they _are_ the business, since you can't exactly go look at a queue of people using your website. Our only visibility is the data we collect and display.
+
+**Dashboards and charts are resources that multiply the creator’s effort.** A few days of thoughtful design can repay as thousands of hours of engineers, leadership, and/or users that are well informed. In many cases these can result in improved response time to problems.
 
 That’s worth your time, right?
 
