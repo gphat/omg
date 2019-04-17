@@ -64,7 +64,7 @@ First, **don’t use area charts that aren’t stacked**. Occlusion just hides d
 Few suggests that instead of using an area chart, use a single line chart showing the sum and an additional chart showing the contributions (Few, 146)[^1]. This makes spotting the change significantly easier.
 
 ![Two charts showing sum and contributions](/assets/images/dash-p3-area3.png)
-<br>_Left chart shows sum of latency, right chart shows each contributor. The contributors to latency are obvious **and** we can see our total!_
+<br>_This is the same data as the area chart above. The left chart shows sum of latency, right chart shows each contributor. The contributors to latency are obvious **and** we can see our total!_
 
 # Bar Charts
 Where line charts show shapes, bar charts show “exact” values. For most system metrics you’re better off using a line chart. The exception would be a chart which compares a few metrics:
