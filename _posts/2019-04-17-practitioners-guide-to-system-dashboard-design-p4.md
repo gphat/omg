@@ -92,6 +92,7 @@ An example of this consideration is the [fan chart](https://en.wikipedia.org/wik
 
 # Review
 * Our job doesn't stop with just time series. Users need context to understand what else is going on.
+* Spent some quality time labeling your charts with titles, subtitles, and whatever else you can find.
 * Colocating event data into time series charts helps our user know what might've changed.
 * The data in our charts can be improved with normal, expected, or objective values to orient the user.
 * Coupling alert information can speed incident response.
