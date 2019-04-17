@@ -61,13 +61,15 @@ Some advice on how to implement this well:
 # Norms, Goals, and Agreements
 Some KPIs have acceptable ranges, internal goals, or even contractual obligations. Including this information in the relevant charts can be a part of the visualization (see [Gauges, Bullets, Ranges, etc in Part 3](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p3.html#gauges-bullet-ranges-etc)) or included as context within the widget. This context helps the user avoid the requirement of what the chart “should” look like, or what impact the current value may have on stakeholders.
 
+Many tools support this type of watermarking. Adding them provides additional context to the reader so that the time series isn't just an arbitrary value, but a comparison to our expectations.
+
 ![Example of an SLO value in a chart](/assets/images/dash-p4-slo.png)
 <br>_The SLO for our service is included as a watermark in the chart._
 
-Many tools support this type of watermarking. Adding them provides additional context to the reader so that the time series isn't just an arbitrary value, but a comparison to our expectations. We can extend this further with time shifts, moving averages, or forms of anomaly detection to draw in expected values:
+We can extend this further with time shifts, moving averages, or forms of anomaly detection to draw in expected values:
 
 ![Example of guidance via time shifting](/assets/images/dash-p4-normal.png)
-<br>_Here's what normal looks like. We seem ok!_
+<br>_Here's what normal looks like. This cyclical pattern seems ok!_
 
 Where a norm or expectation is violated, preemptively highlighting the information for the user so that their eye is drawn to the most important information (Few, 54)[^1].
 
