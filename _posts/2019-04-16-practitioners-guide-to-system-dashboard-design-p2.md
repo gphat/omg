@@ -128,7 +128,7 @@ There's a lot to think about when displaying data to our users. There's a lot to
 * Be aware of forced aggregation and choices on display like rates and sums. Clearly label your charts.
 * Consider accessibility in design and data display. Avoid reliance on red and green and ensure sufficient contrast.
 
-Please check back later for the next items in my series:
+Please read on for the next items in my series:
 
 {% include dashboard-guide.html %}
 
