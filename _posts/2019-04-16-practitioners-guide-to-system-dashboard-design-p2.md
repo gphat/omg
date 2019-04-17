@@ -40,7 +40,7 @@ When you open the palette of widgets for your dashboard, there are probably lots
 These human quantitative perceptual task rankings (Mackinlay, 125)[^2] provide a handy guide for determining how easily our reader may be able to process our visualization. Some visual components are actually processed *subconsciously* using [pre-attentive processing](https://en.wikipedia.org/wiki/Pre-attentive_processing). The careful use of color, form, position and motion can greatly ease and speed up important information in a dashboard (Few, 80)[^1].
 
 ![Pre-attentive Attributes Example!](/assets/images/dash-p2-preattentive.png)
-<br>_Examples of pre-attentive attributes You can see these without even thinking about it!._
+<br>_Examples of pre-attentive attributes You can see these without even thinking about it!_
 
 ## Scale and Units
 
