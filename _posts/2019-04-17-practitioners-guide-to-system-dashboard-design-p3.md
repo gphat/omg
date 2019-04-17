@@ -80,7 +80,7 @@ Be careful to avoid [moiré patterns](https://en.wikipedia.org/wiki/Moir%C3%A9_p
 See stacked area charts. You rarely want to use a stacked chart, unless the focus is on the whole value. Users will have difficulty comparing sizes in the stack.
 
 # Heat Maps
-Reach for heap maps when you have a line chart that has too many lines to make sense of. Heat maps vary the intensity of color so that a lot of data can be packed in to a small space. Where occlusion hurts line charts, heat maps user the overlap to add more color. This has the novel side effect of showing banding where there is overlap aiding in pattern and outlier detection.
+Reach for heat maps when you have a line chart that has too many lines to make sense of. Heat maps vary the intensity of color so that a lot of data can be packed in to a small space. Where occlusion hurts line charts, heat maps user the overlap to add more color. This has the novel side effect of showing banding where there is overlap aiding in pattern and outlier detection.
 
 ![Comparison of line chart and heatmap](/assets/images/dash-p3-heat-compare.png)
 <br>_The line chart is terrible at everything but outliers. The heat map shows where the population is grouped._
