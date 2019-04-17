@@ -27,7 +27,7 @@ Tables are common and well-understood visualizations that excel[^2] when looking
 If the user needs to know a single value such as the sum, average, or “instant” then using simple numbers or tables is an excellent fit.
 
 # Line Charts
-Line charts are well suited to most data you’ll be displaying. The line chart begins with points, then connects the points with a line. This is worth saying out loud here because on a [run chart](https://en.wikipedia.org/wiki/Run_chart) this interpolation of data gives the user a sense of shape over time. You’ll commonly hear people say that a metric is trending up or down as they watch updates.
+Line charts are well suited to most data you’ll be displaying. The line chart begins with points, then connects the points with a line. This is worth saying out loud here because on a [run chart](https://en.wikipedia.org/wiki/Run_chart) this interpolation of data gives the user a sense of _shape over time_. You’ll commonly hear people say that a metric is trending up or down as they watch updates.
 
 ![A line chart with clear shape](/assets/images/dash-p3-line1.png)
 <br>_The shape is clear. Something is happening to our latency!_
