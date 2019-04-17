@@ -43,7 +43,7 @@ Before you close this tab and make everything a line chart, there are a few  thi
 ![A line chart with too many lines](/assets/images/dash-p3-line2.png)
 <br>_The lines are so close as to be hard to differentiate._
 
-Line charts _interpolate_ data between two points with a line. This is desirable in most cases, since the shape provided aids perception. It can also hide missing information or the opposite; make us think we have data we really don't. Take our example line chart from earlier, now with points at each reading:
+Line charts _interpolate_ data between two points with a line. This is desirable in most cases, since the shape provided aids perception. Unfortunately interpolation can also hide missing information or the opposite; make us think we have data we really don't. Take our example line chart from earlier, now with points at each reading:
 
 ![A line chart with points at each measurement](/assets/images/dash-p3-line3.png)
 <br>_The points show that we only get one reading at each change in latency._
