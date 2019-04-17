@@ -59,7 +59,7 @@ Some advice on how to implement this well:
 * Provide a link in the event for your user to follow to find more information. This provides the user context but avoids turning your dashboarding tool into an administrative interface. Less is more if they can click on it.
 
 # Norms, Goals, and Agreements
-Some KPIs have acceptable ranges, internal goals, or even contractual obligations. Including this information in the relevant charts can be a part of the visualization (i.e. a dial or range bar) or included as context within the widget. This context helps the user avoid the requirement of what the chart “should” look like, or what impact the current value may have on stakeholders.
+Some KPIs have acceptable ranges, internal goals, or even contractual obligations. Including this information in the relevant charts can be a part of the visualization (see [Gauges, Bullets, Ranges, etc in Part 3](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p3.html#gauges-bullet-ranges-etc)) or included as context within the widget. This context helps the user avoid the requirement of what the chart “should” look like, or what impact the current value may have on stakeholders.
 
 ![Example of an SLO value in a chart](/assets/images/dash-p4-slo.png)
 <br>_The SLO for our service is included as a watermark in the chart._
