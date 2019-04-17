@@ -79,12 +79,12 @@ Since we know these limits and expectations we can go a step further and process
 We've gone from an anonymous line on a chart to a situation with lots of context and clear guidance as to the state of the system. Our SLO is being violated!
 
 # Flagging Alerts or Other Bad State
-A common use of system dashboards is to diagnose failure, especially in automated monitoring. Our earlier control-rate context can be combined with data from the alerting system. When and how did this fire?
+A common use of system dashboards is to diagnose failure, especially in response alerting. Our earlier control-rate context can be combined with data from the alerting system. When and how did this fire?
 
 ![Example of alert context](/assets/images/dash-p4-bad.png)
 <br>_Timeline annotations for alerts, highlighted violations, and coloration of values over a threshold!_
 
-This information helps our responder understand what brought about the alert, helping them orient to the problem.
+This information helps our responder understand what brought about the alert, helping them orient to the problem. Other charts may provide additional context or perhaps our added menus help with next steps.
 
 # Projections or Other Synthetic Data
 Much of the data we present is direct measurement from our systems. Because of this, you should take special care when presenting data that is projected, predicted, or otherwise synthesized so that the user understands where to place their trust. The [Consumer Financial Protection Bureau provides guidance of deemphasizing such data](https://cfpb.github.io/design-manual/data-visualization/emphasis.html#projected-values).
