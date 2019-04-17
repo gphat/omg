@@ -13,9 +13,9 @@ With a strong layout and helpful visualizations our next goal is to orient the u
 
 # Basics: Text
 
-Humans are pretty good at reading. Those that make the dashboards often lean toward terseness. In Part 2 we covered [Scale and Units](http://localhost:4000/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#scale-and-units). Labeling our data and considering the _form_ of that label can yield comprehension improvements.
+Humans are pretty good at reading. Those that make the dashboards often lean toward terseness. In [part 2](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html) we covered [Scale and Units](http://localhost:4000/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#scale-and-units). Labeling our data and considering the _form_ of that label can yield comprehension improvements.
 
-But let's not get too deep here. Label your damn charts better! There's no charge for letters. Imagine you're a new operator who's just been paged for the first time. What do you need to know?
+But let's not get too deep here: just label your damn charts better. There's no charge for letters! Imagine you're a new operator who's just been paged for the first time. What do you need to know?
 
 ![Comparison of charts with and without labels](/assets/images/dash-p4-text.png)
 <br>_The left chart has no effort. The right side has reasonable labels to help the user understand the context of the visualization._
@@ -34,7 +34,7 @@ Seeing a bad thing in a chart might lead to another tool or to notifying teammat
 
 
 # Human Actions, Control Data
-Earlier we discussed the value of time as our X axis in run charts. This is extremely helpful for readers in that it shows change over time, but the passage of time isn’t the _causal_ factor in our data. For that we need more context.
+In [part 3, Line Charts](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p3.html#line-charts) we discussed the value of time as our X axis in run charts. This is extremely helpful for readers in that it shows change over time, but the passage of time isn’t the _causal_ factor in our data. For that we need more context.
 
 ![Sources of change](/assets/images/dash-p4-changes.png)
 <br>_Lots of thing can cause change. Pesky ghosts!_
