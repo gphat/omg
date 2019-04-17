@@ -109,7 +109,7 @@ Some that don’t deserve a whole section.
 * Box plots: Not common in our tools
 * Dot plots: Use bars. May have some use cases for rare data over a long period?
 * Scatter plots: Rad for correlation, but that’s a specialized case that we’re not covering here.
-* Dials and gauges:  If your data does not actually have lower and upper-bounds, presenting it in a dial is misleading. They also waste a lot of space.
+* Dials and gauges: If your data does not actually have lower and upper-bounds, presenting it in a dial is misleading. They also waste a lot of space.
 
 # Summary
 Before you flame me for missing some weird visualization or an option that your tool has, let me remind you that if your user _understands_ the dashboard, chart or visualization then it's **good**. As your use case broadens then so will your user base and we fall back on the guidance from [Part 2](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html) to choose our visualizations.
