@@ -56,7 +56,7 @@ First, **don’t use area charts that aren’t stacked**. Occlusion just hides d
 ![An unstacked area chart, full of occluded data](/assets/images/dash-p3-area1.png)
 <br>_What even is this? I can't see anything but green._
 
-**Area charts are best used with things that sum and the *whole* is the important value**, as in showing the contribution a few steps make to a total duration. They share a lot with line charts, in that they show shape. Unfortunately this shape is also their downfall: when one of the bottom areas changes, so do all the areas above it. A user may be confused where to attribute the change. Spotting the real change in this situation can be tricky.
+**Area charts are best used when the *whole* of sums is the important value**, as in showing the contribution a few steps make to a total duration. They share a lot with line charts, in that they show shape. Unfortunately this shape is also their downfall: when one of the bottom areas changes, so do all the areas above it. A user may be confused where to attribute the change. Spotting the real change in this situation can be tricky.
 
 ![Stacked area chart showing inability to see contributors](/assets/images/dash-p3-area2.png)
 <br>_Our latency moves around 4s, but we can't tell what is contributing to the change. Is it all of the lines?_
