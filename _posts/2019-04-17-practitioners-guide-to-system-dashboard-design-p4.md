@@ -71,10 +71,12 @@ We can extend this further with time shifts, moving averages, or forms of anomal
 ![Example of guidance via time shifting](/assets/images/dash-p4-normal.png)
 <br>_Here's what normal looks like. This cyclical pattern seems ok!_
 
-Where a norm or expectation is violated, preemptively highlighting the information for the user so that their eye is drawn to the most important information (Few, 54)[^1].
+Since we know these limits and expectations we can go a step further and process the information for our user ahead of time. Where a norm or expectation is violated, we can preemptive highlighting the violation. Now the user is drawn to the most _important_ information (Few, 54)[^1].
 
 ![A highlighted SLO violation](/assets/images/dash-p4-highlight.png)
 <br>_We seem to be violating the SLO on this instant chart!_
+
+We've gone from an anonymous line on a chart to a situation with lots of context and clear guidance as to the state of the system. Our SLO is being violated!
 
 # Flagging Alerts or Other Bad State
 A common use of system dashboards is to diagnose failure, especially in automated monitoring. Our earlier control-rate context can be combined with data from the alerting system. When and how did this fire?
