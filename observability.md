@@ -43,12 +43,16 @@ I'm often asked by investors to discuss my thoughts of new or existing monitorin
 
 I speak regularly and conferences across the country promoting observability and thoughtful, empathetic operations.
 
-Here's a talk from Monitorama 2016:
+#### Monitorama 2016:
 
 <iframe src="https://player.vimeo.com/video/173610034?portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 <p><a href="https://vimeo.com/173610034">Monitorama PDX 2016 - Cory Watson - Creating A Culture of Observability at Stripe</a> from <a href="https://vimeo.com/monitorama">Monitorama</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
 [Here are the slides if you prefer to flip through them rather than listen to me talk](http://www.slideshare.net/CoryWatson8/building-a-culture-of-observability-at-stripe).
+
+#### AWS Loft 2019:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/n6v-P4p0QIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Podcasts
 
