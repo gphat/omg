@@ -52,6 +52,8 @@ I speak regularly and conferences across the country promoting observability and
 
 #### AWS Loft 2019:
 
+I gave at talk at the New York AWS Loft office called "Demystifying Observability" for startups. It's a combination of beginner info and practical advice for how observability can help you even when you're just getting started.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/n6v-P4p0QIA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Podcasts
