@@ -13,7 +13,7 @@ The title is succinct, but in practice an organization’s “observability” e
     * _[Tom Wilkie’s RED Method](https://www.weave.works/blog/the-red-method-key-metrics-for-microservices-architecture/)_ is a focused explanation of the SRE book’s Golden Signals and tends to resonate well with people.
     * _[Brendan Gregg’s USE Method](http://www.brendangregg.com/usemethod.html)_ is an exceptional framework for measuring resource consumption. It takes more effort, but has fantastic results.
 * Fred Hebert's _[Operable Software](https://ferd.ca/operable-software.html)_ careens from observability to user experience and reminds us why this all so important.
-* On specific use of some of the “pillars” of Observability:
+* Specific guidance for some of the “pillars” of Observability:
     * _[Prometheus’ Guide To Metric Types](https://prometheus.io/docs/concepts/metric_types/)_ covers the basics of metrics and their _[Metric and Label Naming](https://prometheus.io/docs/practices/naming/)_ reminds us that our metrics are also an interface for our engineers, and how we can standardize.
     * _[Charity Majors’ Logs Vs Structured Events](https://charity.wtf/2019/02/05/logs-vs-structured-events/)_ describes how we can turn logging from a burden into a blessing.
 * On the practice of measuring and using this tooling for the day-to-day:
