@@ -24,7 +24,7 @@ If you squint at dashboards and how they interact with your operations this can 
 
 Your first step is to ask around: does your company have folks that are experts in this discipline? If so, seek them out and ask for some of their time. They can likely help you through some basics on what to work toward. _Use their advice over any you get here!_
 
-For those without you might find the [U.S. Department of Health & Human Services’s Information Architecture Basics page](https://www.usability.gov/what-and-why/information-architecture.html) helpful.
+For those without you might find the [U.S. Department of Health & Human Services’s Information Architecture Basics page](https://www.usability.gov/what-and-why/information-architecture.html) helpful. Also a run through [Fundamental Concepts of Good UX](https://usabilla.com/blog/fundamental-concepts-ux/) wouldn't hurt.
 
 Note: It may help you to explicitly appoint someone this responsibility and applaud their efforts rather than relying on unofficial or “shadow” work that goes unrewarded. Most tools have APIs for fetching assets and you can set up policies that enforce the ultimate design.
 
