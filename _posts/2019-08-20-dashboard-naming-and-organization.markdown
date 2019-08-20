@@ -14,7 +14,7 @@ Fast forward a bit and as you’ve microed your services and kubered your netes 
 
 <iframe src="https://giphy.com/embed/5t9wJjyHAOxvnxcPNk" width="480" height="401" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/latelateshow-what-confused-5t9wJjyHAOxvnxcPNk">via GIPHY</a></p>
 
-Let’s discuss how to avoid this sort of disorganization by designing our dashboards, the naming used, and the organization thereof.
+Let’s discuss how we can _design_ our dashboard organization to increase awareness and findability.
 
 ## A Very Particular Set of Skills
 
