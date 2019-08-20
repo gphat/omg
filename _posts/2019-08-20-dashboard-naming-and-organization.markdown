@@ -60,7 +60,7 @@ Lastly let’s talk about how one finds these assets. You’ll again look to you
 
 ### Use words that help
 
-_Data Pipeline Overview_ is a better name than _Smeagle Overview_, but _Data Pipeline (Smeagle) Overview_ that lives in the Analytics team is much more helpful.
+_Data Pipeline Overview_ is a better name than _Smeagol Overview_, but _Data Pipeline (Smeagol) Overview_ that lives in the Analytics team is much more helpful.
 
 ### Add more words
 
