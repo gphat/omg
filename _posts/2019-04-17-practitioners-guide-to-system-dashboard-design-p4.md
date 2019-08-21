@@ -13,7 +13,7 @@ With a strong layout and helpful visualizations our next goal is to orient the u
 
 # Basics: Text
 
-Humans are pretty good at reading. Those that make the dashboards often lean toward terseness. In [part 2](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html) we covered [Scale and Units](http://localhost:4000/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#scale-and-units). Labeling our data and considering the _form_ of that label can yield comprehension improvements.
+Humans are pretty good at reading. Those that make the dashboards often lean toward terseness. In [part 2](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html) we covered [Scale and Units](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html#scale-and-units). Labeling our data and considering the _form_ of that label can yield comprehension improvements.
 
 But let's not get too deep here: just label your damn charts better. There's no charge for letters! Imagine you're a new operator who's just been paged for the first time. What do you need to know?
 
