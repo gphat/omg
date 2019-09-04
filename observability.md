@@ -8,7 +8,7 @@ Observability is my specialty!
 
 Through my career as a software engineer, manager and executive a common love of observability has been present.
 
-[Observability](https://en.wikipedia.org/wiki/Observability) is more than monitoring and charts. **Observability is a measure for how well internal states of a system can be inferred by knowledge of its external outputs.** In other words, if you don't have sensors — metrics, logs, etc — that help you understand how your service is working then you can't tell if things are going wrong!
+[Observability](https://en.wikipedia.org/wiki/Observability) is more than monitoring and charts. **Observability is a collection of techniques and tools that aim to improve understanding of complex systems. Highly observable systems should have improved ergonomics for operators, allowing them to more quickly grasp the impact of changes and the contributors to incidents.** In other words, if you don't have sensors — metrics, logs, etc — that help you understand how your service is working then you can't tell if things are going wrong!
 
 I've spent a lot of my time learning as much as I can about this subject as well as applying my knowledge to the things I work on. My earliest efforts were [a homegrown monitoring tool](http://onemogin.com/observability/tech/let-the-rithm-move-you.html) that I keep on GitHub for posterity.
 
@@ -36,6 +36,17 @@ I joined Stripe in 2015 I created an Observability team and worked to change Str
 In 2019 I joined [SignalFx](https://www.signalfx.com) as a Technical Director. My role is a mix of advocacy, customer engagement, and product improvement.
 
 I'm often asked by investors to discuss my thoughts of new or existing monitoring products, and I enjoy speaking about these tools with others both to learn and provide my thoughts. I've also participated on customer advisory boards, representing my engineering teammates and learning challenges from vendors.
+
+## Writing
+
+* [Observability Crash Course](http://onemogin.com/observability/dashboards/observability-crash-course.html)
+* [The CASE Method: Better Monitoring for Humans](http://onemogin.com/monitoring/case-method-better-monitoring-for-humans.html)
+* A 5 part series on dashboard design:
+  * [Structure and Layout](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design.html)
+  * [Presentation and Accessibility](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p2.html)
+  * [What Charts To Use](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p3.html)
+  * [Context Improvement](http://onemogin.com/observability/dashboards/practitioners-guide-to-system-dashboard-design-p4.html)
+  * [Naming and Organization](http://onemogin.com/observability/dashboards/dashboard-naming-and-organization.html)
 
 ## Speaking
 
