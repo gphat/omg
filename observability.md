@@ -68,6 +68,8 @@ I had the pleasure of giving a 5 minute "vendor talk" at Monitorama PDX 2019. Th
 
 ## Monitorama Baltimore 2019:
 
+<iframe src="https://player.vimeo.com/video/369638117?portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
 I spoke about a Dashboard Renaissance, or techniques and processes for making dashboards a more helpful part of your observability and monitoring work. [Slides are here](http://onemogin.com/assets/talks/Dashboard-Renaissance.pdf).
 
 # Podcasts
