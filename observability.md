@@ -72,6 +72,12 @@ I had the pleasure of giving a 5 minute "vendor talk" at Monitorama PDX 2019. Th
 
 I spoke about a Dashboard Renaissance, or techniques and processes for making dashboards a more helpful part of your observability and monitoring work. [Slides are here](http://onemogin.com/assets/talks/Dashboard-Renaissance.pdf).
 
+## KubeCon US 2019:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HmKAjIlImcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Originally conceived as a set of lessons from my personal role purchasing tools to my job at a vendor where I work with dozens of customers making the same decisions. This talk covers 6 different ways to improve your stance on observability from a *social* perspective.
+
 # Podcasts
 
 * In March of 2017 I [spoke with Software Engineering Daily](https://softwareengineeringdaily.com/2017/03/15/stripe-observability-with-cory-watson/) about my observability work at Stripe.
