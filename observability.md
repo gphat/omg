@@ -54,6 +54,11 @@ I speak regularly and conferences across the country promoting observability and
 
 [Here are the slides if you prefer to flip through them rather than listen to me talk](http://www.slideshare.net/CoryWatson8/building-a-culture-of-observability-at-stripe).
 
+There are also versions of this talk from:
+
+* [Datadog Dash, 2016](https://www.youtube.com/watch?v=wHAQ1tesGeg)
+* [InfoQ, 2016](https://www.infoq.com/presentations/stripe-culture-2016/)
+
 ## AWS Loft 2019:
 
 I gave at talk at the New York AWS Loft office called "Demystifying Observability" for startups. It's a combination of beginner info and practical advice for how observability can help you even when you're just getting started.
