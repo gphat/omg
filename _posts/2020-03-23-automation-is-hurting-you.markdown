@@ -4,7 +4,7 @@ title:  "Stop Hitting Yourself: How Automation Is Hurting You"
 date:   2020-05-21 07:49:00
 categories: automation
 draft: true
-summary: "TK TK SUMMARY"
+summary: "Replacing humans with automation comes with a lot of risk that's hard to see in the moment."
 ---
 
 I really dislike writing post openings. It feels tedious to define the problem in leading ways that will entice a reader, especially when the important bits are further down. I wish I could just press a button and get a Cory-like opening blurb with some toilsome bits like “so and so is defined by wikipedia as” and a pithy joke. I wanna automate it.
