@@ -11,7 +11,7 @@ I really dislike writing post openings. It feels tedious to define the problem i
 
 {% include automation.html %}
 
-Automation is a process being performed with minimal human involvement. There are minimal forms of automation — which I consider more amplification such as running a command on 100 machines at —  versus _replacing_ a human all together. Automation is a rallying cry of [DevOps](https://en.wikipedia.org/wiki/DevOps) and [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) and everyone’s trying to do more with less in [complex systems](https://en.wikipedia.org/wiki/Complex_system) soooo, automation!
+[Automation](https://en.wikipedia.org/wiki/Automation) is a process being performed with minimal, if any, human involvement. [DevOps](https://en.wikipedia.org/wiki/DevOps) and [SRE](https://en.wikipedia.org/wiki/Site_Reliability_Engineering) commonly recommend aggressive automation to do more with less in modern, [complex systems](https://en.wikipedia.org/wiki/Complex_system). There's certainly a lot to be gained from automation but there's also a downside when this technology replaces human involvement.
 
 ## Toxic Teammates
 Have you ever worked with a stubborn, uncommunicative teammate? Maybe they didn’t contribute to joint projects or _did_ contribute but didn’t share until the end? Perhaps they insisted on dropping everything at exactly noon every day so they could get their favorite sandwich for lunch, work be damned, and left everyone else to deal with the mess.
