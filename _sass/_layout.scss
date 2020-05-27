@@ -238,3 +238,11 @@
         }
     }
 }
+
+.well-sm {
+  font-size: $small-font-size;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}

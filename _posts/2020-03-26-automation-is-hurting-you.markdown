@@ -28,7 +28,7 @@ The point I'm getting to here is that despite our seemingly genetic distaste for
 
 > Automation has generally been introduced to meet the needs of the process rather than the needs of the people working with the process[^jcsauto]
 
-In the remainder of this post I plan to scare you sober by showing all ways that automation is like that toxic teammate. In [Improving Automation: Working Together](http://onemogin.com/automation/automation/improving-automation.html) I'll help you learn how to avoid these problems.
+In the remainder of this post I plan to scare you sober by showing all ways that automation is like that toxic teammate. In a follow up I'll help you learn how to avoid these problems.
 
 **Automating a process without proper consideration, design, and planning can create technical debt, incidents, and undermine all your hard work.**
 
@@ -41,7 +41,7 @@ Imagine our new autoscaling system has worked well for weeks, then a surge in tr
 ### Automation Requires More Of Humans
 Automation removes the human from involvement in the operation. This is a blessing in reduced fatigue or improved productivity. Unfortunately it's a curse in *situation awareness*.
 
-These kinds of second order effects are common with automation because humans are "out of the loop". **This means additional time is required for all these folks to get acquainted with the system, how it works, and what can be done about it.[^1]** This price is being paid at a shitty time, as we may be dealing with customer side effects and blowing up the entire org's productivity by invoking the incident machinery.
+These kinds of second order effects are common with automation because humans are "out of the loop". **This means additional time is required for all these folks to get acquainted with the system, how it works, and what can be done about it.[^1]** If the user doesn’t know about the automation or has forgotten the logic, they may end up fighting what seems like unexplainable behavior! This price is being paid at a shitty time, as we may be dealing with customer side effects and blowing up the entire org's productivity by invoking the incident machinery.
 
 This situation leaves us with an irony and a paradox.
 
@@ -57,9 +57,9 @@ Consider our earlier example. Not only do we have new failure modes, we have add
 ### Automation Increases Complexity
 The productivity gain from automation is tantalizingly quantifiable. The ramifications are frustratingly qualitative. The time spent staring at charts, editing files, and executing changes can be added up in a spreadsheet and celebrated at review time. What will we do with all this extra time?
 
-**More shit**, that's what. We'll go and automate another thing, or create a new thing that needs automation later. This is a form of The Law of Stretched Systems:
+**More shit**, that's what. We'll go and automate another thing, or create a new thing that needs automation later. This is a form of The Law of Stretched Systems[^4]:
 
-> Every system is stretched to operate at its capacity; as soon as there is some form of improvement, for example, in the form of new technology, it will be exploited to achieve a new intensity and tempo of activity.[^4]
+> Every system is stretched to operate at its capacity; as soon as there is some form of improvement, for example, in the form of new technology, it will be exploited to achieve a new intensity and tempo of activity.
 
 We'll take this newfound free time and permission to make *more* complexity without realizing we're going to pay later.
 
@@ -70,12 +70,12 @@ Automation usually begins from a point of frustration. Our autoscaler was likely
 
 The repercussions of adding automation warrant research, user interviews, collecting feedback, and all that other work that *isn't* coding. I'm talking about **design** here.
 
-Design is never neutral, so every change you affect or error you emit benefits from design.[^5] How will users know the autoscaler has taken action? Will the autoscaler make correct choices when faced with increasing latency and capacity for other functions? Can users disable the autoscaler? These are all essential questions to factor in to your design.
+Design is never neutral, so every change you affect or error you emit benefits from design.[^5] How will users know the autoscaler has taken action? Will the autoscaler make correct choices when faced with increasing latency and capacity for other functions? Can users disable the autoscaler? These are all essential questions to factor into your design.
 
 ### Automation Reduces Optionality
-Humans have created some beautiful  — and some despicable — things. A human as part of a system means that system can still be adaptive[^0]. When we remove humans we remove this adaptive capability. Yeah, yeah, I know we have ML and AI but these are, for now, very crude in comparison to humans. Using them is, in effect, even more automation that we must understand. Eep!
+Humans have created some beautiful  — and some despicable — things. A human as part of a system means that system can still be adaptive[^0]. When we remove humans we remove this adaptive capability. Yeah, yeah, I know we have ML and AI but these are, for now, very crude in comparison to humans. Using them is, in effect, even more automation that we must understand. Eep!
 
-To automate a process requires a very specific, fixed set of instructions. Do you understand the process and its ramifications well enough to do that yet? Automating a process requires design and choices, which can reduce the freedom of afforded from continued learning, evolution, and adaptation from the human operator.[^3] Doing this too early can result is shortcomings, bugs, and technical debt.
+To automate a process requires a very specific, fixed set of instructions. Do you understand the process and its ramifications well enough to do that yet? Automating a process requires design and choices, which can reduce the freedom of afforded from continued learning, evolution, and adaptation from the human operator.[^3] Doing this too early can result in shortcomings, bugs, and technical debt.
 
 A human is aware of seasonal differences, like Black Friday, where a human would temper their actions. A human would recognize a network outage and not scale the compute down to 0 when the latency metric is 0 or missing. These lessons must be learned before we can rely on automation, lest we realize the repercussions in embarrassing incidents.
 
@@ -83,8 +83,6 @@ A human is aware of seasonal differences, like Black Friday, where a human would
 You're still here reading, so you didn't bail early. Those that did probably think this post is some sort of Luddite position that we should stop or cast off automation. I'm ok with that assessment if it slows engineers down and encourages them to think through when and how to automate something. By all means read this half way through and talk shit about it, so long as it scares you.
 
 Really, the opposite is true. I'm in awe of our automated accomplishments. My issue is with the wreckage we leave in our wake in the form of half-ass resilience. Automation is incredibly powerful, but so is human capability. Deploying automation too soon can result in a rickety, dangerous foundation that humans prop up with grueling on all schedules and unhappy customers.
-
-Our autoscaler, despite our best intentions, can turn into a minefield of future incidents, surprises, and technical debt. It can also do the opposite, saving us from mistakes and human fatigue. Deciding when and how to harness this automation is a delicate dance.
 
 The next time you feel the urge to automate, instead begin a design document. Better yet, marvel in your own antientropic powers and keep learning so you can write a better design document later.
 
