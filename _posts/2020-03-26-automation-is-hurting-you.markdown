@@ -19,16 +19,16 @@ Have you ever worked with a stubborn, uncommunicative teammate? Maybe they didn�
 Such a teammate is often considered toxic and ruinous to teams everywhere. My goal today is to show you how the automation you’re making in your job is generating these “teammates” and wrecking your happiness, reliability and ability to do cool new things.
 
 ##  Toil and Trouble
-One of my responsibilities is keeping an API library up to date with an API. Inside this API is a list of acceptable names for cloud provider services. That list changes periodically and is kept in a bit of Java source code as a map. So every few weeks I copy the block from Java into Go and — by hand — rejigger it into Go syntax and commit it. Each time I think about how I could write a parser to do this… or maybe ask the other team to move the definitions to YAML files so I could rid myself of this toilsome work. Sometimes I even typo a definition and release it to the world. “Damn!” I say, reminding myself that if this were YAML and I had a script I could avoid this happening.
+One of my responsibilities is keeping an API library up to date. Inside this API is a list of acceptable names for cloud provider services. That list changes periodically and is kept in a bit of Java source code as a map. So every few weeks I copy the block from Java into Go and — by hand — rejigger it into Go syntax and commit it. Each time I think about how I could write a parser to do this… or maybe ask the other team to move the definitions to YAML files so I could rid myself of this toilsome work. Sometimes I even typo a definition and release it to the world. “Damn!” I say, reminding myself that if this were YAML and I had a script I could avoid this happening.
 
-This sort of tedium is common in jobs. Despite my whining, I’ve only had problems with this process two or three times in a year. Each time it was extremely obvious to me what had happened and it was fixed quickly and effectively with very little customer impact. This is because I — as a human — am full of wonder: foresight, imagination, adaptability, and intelligence. While I make errors on some occasions, I more often create safety.[^0] When I do make errors, I quickly recognize and correct them using my adaptability. Compare this to the heap of new problems I might bring by introducing new dependencies and processes to a well understood process.
+This sort of tedium is common in jobs. Despite my whining, I’ve only had problems with this process two or three times in a year. Each time it was obvious to me what had happened and it was fixed quickly and effectively with very little customer impact. This is because I — as a human — am full of wonder: foresight, imagination, adaptability, and ingenious. While I make errors on some occasions, I more often create safety.[^0] When I do make errors, I quickly recognize and correct them using my adaptability and ingenuity. Compare this to the heap of new problems I might bring by introducing new dependencies and processes to a well understood process.
 
 ## How Automation Hurts
 The point I'm getting to here is that despite our seemingly genetic distaste for toil we should be extremely careful about reaching for automation.
 
 > Automation has generally been introduced to meet the needs of the process rather than the needs of the people working with the process[^jcsauto]
 
-In the remainder of this post I plan to scare you sober by showing all ways that automation is like that toxic teammate. In a follow up I'll help you learn how to avoid these problems.
+My plan is to scare you sober by showing all ways that automation is like that toxic teammate. In a follow up I'll help you learn how to avoid these problems.
 
 **Automating a process without proper consideration, design, and planning can create technical debt, incidents, and undermine all your hard work.**
 
@@ -45,19 +45,19 @@ These kinds of second order effects are common with automation because humans ar
 
 This situation leaves us with an irony and a paradox.
 
-**Irony:** the more complex an automation, the more crucial the human becomes. Our autoscaler, meant to improve latency, has instead caused a complex series of second order failures that a — or many! — humans most now sort through.
+**Irony:** the more complex an automation, the more crucial the human becomes.[^2] Our autoscaler, meant to improve latency, has instead caused a complex series of second order failures that a — or many! — humans most now sort through.
 
 **Paradox:** our automation was intended to remove the need for humans, but instead we've made a new, different joint human-computer doodad.[^2]
 
 ### Automation Creates New Problems
-When we set out to make our autoscaler or any other automation, our goal was to reduce the effort and/or accuracy of a task. This goal is so strong that we generally miss, or don't bother to imagine, the side effects that come with the benefits. **Adoption of any technology, which automation is a form of, increases needs for coordination, creates new situations, and new failures. "It changes what is canonical and what is exceptional."[^3]**
+When we set out to make our autoscaler or any other automation, our goal was to reduce the effort and/or accuracy of a task. This goal is so strong that we generally miss, or don't bother to imagine, the *side effects* that come with the benefits. **Adoption of any technology, which automation is a form of, increases needs for coordination, creates new situations, and new failures. "It changes what is canonical and what is exceptional."[^3]**
 
 Consider our earlier example. Not only do we have new failure modes, we have additional process and state that humans must internalize. Before the autoscaler we had one set of problems, now we have exciting new problems!
 
 ### Automation Increases Complexity
 The productivity gain from automation is tantalizingly quantifiable. The ramifications are frustratingly qualitative. The time spent staring at charts, editing files, and executing changes can be added up in a spreadsheet and celebrated at review time. What will we do with all this extra time?
 
-**More shit**, that's what. We'll go and automate another thing, or create a new thing that needs automation later. This is a form of The Law of Stretched Systems[^4]:
+**We create even more complexity**, that's what. We'll go and automate another thing, or create a new thing that needs automation later. This is a form of The Law of Stretched Systems[^4]:
 
 > Every system is stretched to operate at its capacity; as soon as there is some form of improvement, for example, in the form of new technology, it will be exploited to achieve a new intensity and tempo of activity.
 
@@ -86,6 +86,9 @@ Really, the opposite is true. I'm in awe of our automated accomplishments. My is
 
 The next time you feel the urge to automate, instead begin a design document. Better yet, marvel in your own antientropic powers and keep learning so you can write a better design document later.
 
+{% include automation.html %}
+
+# References
 [^jcsauto]: E. Hollnagel, [The Role of Automation in Joint Cognitive Systems](https://www.sciencedirect.com/science/article/pii/S1474667017376851)
 [^0]: Richard Cook, [How Complex Systems Fail](https://web.mit.edu/2.75/resources/random/How%20Complex%20Systems%20Fail.pdf)
 [^1]: Mica Endsley, [Automation and Situation Awareness](http://www.aerohabitat.eu/uploads/media/Automation_and_Situation_Awareness_-_Endsley.pdf)
