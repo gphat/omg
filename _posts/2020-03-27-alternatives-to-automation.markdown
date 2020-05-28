@@ -16,7 +16,9 @@ I have a lot to learn about complexity. I'm still researching, but I really enjo
 
 Complexity isn't a *thing*, it is a *situation* composed of a world, an agent, and a representation. The world is dynamic, interconnected, uncertain, and costly. The agent is one or more humans and… other stuff like computers. The representation is whatever those agents use to understand and manipulate the world.[^coping]
 
-Complexity can be expensive. It makes things slow, error-prone, and frustrating. Specifically complexity effects problem solving of large computer systems.
+Complexity can be expensive. It makes things slow, error-prone, and frustrating. My primary interest is in complexity's impact on the operator.
+
+> As the complexity of a system increases, the accuracy of any single agent's own model of that system decreases rapidy.[^abovebelow]
 
 # The Goal Is Control
 In many of the citations I've used in this series the discussion is usually about **control**. The systems we operate hum along, doing their thing, within a desired performance envelope. This envelope is defined by what our customers are willing to accept, what we're willing to pay, and how well the operation works.
@@ -57,3 +59,4 @@ Amplification via tools allows us to increase output while decreasing, or at lea
 [^anticipatingchange]: Woods, Dekker, [Anticipating the effects of technological change: A new era of dynamics for human factors](https://www.researchgate.net/publication/247512351_Anticipating_the_effects_of_technological_change_A_new_era_of_dynamics_for_human_factors)
 [^autopilot]: Yes, there are autopilots which are automation but that's supplemental and the subject of many more papers.
 [^jcs]: Woods, Hollnagel, ["Joint Cognitive Systems: Patterns in Cognitive Systems Engineering"](https://erikhollnagel.com/books/joint-cognitive-systems-patterns.html)
+[^abovebelow]: Richard I. Cook, M.D., [Above the Line, Below the Line](https://queue.acm.org/detail.cfm?id=3380777)
