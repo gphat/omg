@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Alternatives To Automation: Amplification, Complexity, and Control"
-date:   2020-05-26 07:49:00
+date:   2020-05-27 07:49:00
 categories: automation
-draft: true
+draft: false
 summary: "Automating too soon is perilous. Amplification and complexity and help."
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Improving Automation: Working Together"
-date:   2020-05-26 07:49:00
+date:   2020-05-28 07:51:00
 categories: automation
-draft: true
+draft: false
 summary: "Automation can be improved by designing for work with humans rather than alone."
 ---
 

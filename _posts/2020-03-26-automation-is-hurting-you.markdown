@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "Stop Hitting Yourself: How Automation Is Hurting You"
-date:   2020-05-26 07:49:00
+date:   2020-05-26 07:50:00
 categories: automation
-draft: true
+draft: false
 summary: "Replacing humans with automation comes with a lot of risk that's hard to see in the moment."
 ---
 
