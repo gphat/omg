@@ -22,7 +22,7 @@ Automation often comes from a place of frustration or failure, like an incident 
 To build automation that works well with humans — or even other automation — we need to consider these techniques **at the time of design**. Many of the improvements suggested will require changes to the automation's approaches, algorithms, and capabilities. Let's discuss how.
 
 ## Automation Must Be Designed
-The point of automation is to free the human from some effort. Since it's highly unlikely you work alone, that means that other humans will become responsible for working with and caring for the automation in the future.[^jcsauto] To that end **you must treat automation they way you'd treat a product**. That means talking to stakeholders, getting feedback, and considering ergonomics.[^designofevery]
+The point of automation is to free the human from some effort. Unless you work alone, other humans will become responsible for working with and caring for the automation in the future.[^jcsauto] To that end **you must treat automation the way you'd treat a product**. That means talking to stakeholders, getting feedback, and considering ergonomics.[^designofevery]
 
 > An appropriate design should assume the existence of error, it should continually provide feedback, it continually interact with operators in an appropriate way, and it should have a design appropriate for the worst of situations.[^problemauto]
 
@@ -41,14 +41,14 @@ This feedback is vital for humans in their work and performance.[^ninesteps] Bui
 As a final note, remember to allow access to the raw information (logs, metrics, events) so the operator can dig in deeply if needed. This is important, because automation merely removes the need for the human to **focus** on the tasks in question. When they need to take over for automation it is essential that raw information be available to reestablish control, see also [Ecological interface design](https://en.wikipedia.org/wiki/Ecological_interface_design).
 
 ## Automation Must Be Predictable
-It is generally advised to [avoid surprise in software](https://en.wikipedia.org/wiki/Principle_of_least_astonishment). Humans will inevitably forget stuff and work with imperfect mental models.[^wrongmental] This is a normal form of energy conservation for humans who can't possibly remember everything at all times. Maybe they are new and don't even know the automation! As such we must work to ensure that our automation considers its teammates and acts predictably. (Remember our [toxic teammate example](http://onemogin.com/automation/automation-is-hurting-you.html)!)
+It is generally advisable to [avoid surprise in software](https://en.wikipedia.org/wiki/Principle_of_least_astonishment). Humans will inevitably forget stuff and work with imperfect mental models.[^wrongmental] This is a normal form of energy conservation for humans who can't possibly remember everything at all times. Maybe they are new and don't even know the automation! As such we must work to ensure that our automation considers its teammates and acts predictably. (Remember our [toxic teammate example](http://onemogin.com/automation/automation-is-hurting-you.html)!)
 
 Here are some ways to improve predictability:
 * Emit notifications and reasons when goals change, errors occur, or any time when a human might need to be aware of an action.[^designofevery]
 * Emit information about the current, past, or next step in the process.
 * Avoid sudden movements. Aside from being surprising to humans, smaller adjustments at faster intervals are typically better at stabilizing systems.[^feedbackcontrol]
 * Add (and emitting notifications for) cool down or observational periods such that the automation can transmit its *intent* to act in time for a human to react.
-* Increase urgency of communication as the bounds of control get closer. Do not snap from normal to freaking out in one tick of a loop, do so gradually. This might signal need for a tighter feedback loop or lower interval!
+* Increase urgency of communication as the bounds of control get closer. Do not snap from normal to freaking out in one tick of a loop, do so gradually. This might signal a need for a tighter feedback loop or lower interval!
 
 As an aside, another way to improve predictability is to keep things simple. Some ML or AI features promise great benefits, but may be opaque and unpredictable to operators. Take care when evaluating and using such features.
 
@@ -63,7 +63,7 @@ So far we've focused on ways that automation can transmit information about its 
 These features allow teammates to direct the automation in a way consistent with the given context.[^tenchallenges] With these capabilities, working with automation can become a part of the documented process for responding to loss of control. Without them, automation may be forgotten and exacerbate the problem through well meaning but opaque activity.
 
 ## Automation Must Be Respectful
-We've discussed at length how vital it is for automation to make information about it's work available. We must also, however, balance all that yelling with a respect for the other agents. Humans typically rely on mental models of others to determine what, if anything, needs to be said to keep coordination going.[^tenchallenges] Our automation, being of simple mind, needs our help. Here are some ways we can improve things:
+We've discussed at length how vital it is for automation to make information about its work available. We must also, however, balance all that yelling with a respect for the other agents. Humans typically rely on mental models of others to determine what, if anything, needs to be said to keep coordination going.[^tenchallenges] Our automation, being of simple mind, needs our help. Here are some ways we can improve things:
 
 * Use log levels or other filterable tagging to indicate matters of different importance. Normal operations are no big deal and should be kept to low priority of communication whereas nearing the bounds of control warrants yelling loudly.
 * Leverage consolidation and filtering tools that allow dialing up or down the attention given.
