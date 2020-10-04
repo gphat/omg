@@ -7,7 +7,7 @@ draft: false
 summary: "Automation can be improved by designing for work with humans rather than alone."
 ---
 
-I painted a bleak picture of runaway, people-eating automation in [Stop Hitting Yourself: How Automation Is Hurting You](http://onemogin.com/automation/automation-is-hurting-you.html). It was a bit alarmist, but for good reason. In my experience at many companies and with many customers, automation is treated as a cure-all that is rarely designed to work *with* human teammates. Instead, if removes the human completely while providing little in the way of substitute. **This post is meant to provide guidance on how to overcome this challenge and improve your operations by giving automation some extra capabilities.**
+I painted a bleak picture of runaway, people-eating automation in [Stop Hitting Yourself: How Automation Is Hurting You](http://onemogin.com/automation/automation-is-hurting-you.html). It was a bit alarmist, but for good reason. In my experience at many companies and with many customers, automation is treated as a cure-all that is rarely designed to work *with* human teammates. Instead, it removes the human completely while providing little in the way of substitute. **This post is meant to provide guidance on how to overcome this challenge and improve your operations by giving automation some extra capabilities.**
 
 {% include automation.html %}
 
