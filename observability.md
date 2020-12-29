@@ -83,6 +83,13 @@ I spoke about a Dashboard Renaissance, or techniques and processes for making da
 
 Originally conceived as a set of lessons from my personal role purchasing tools to my job at a vendor where I work with dozens of customers making the same decisions. This talk covers 6 different ways to improve your stance on observability from a *social* perspective.
 
+
+## SREcon20 Americas
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4lnjcAPBKQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Incidents are an amazing source of education, but we often fail to incorporate the findings into our tooling. This talk provides methods for doing just that, with a bit of help from my friends at [Jeli](https://www.jeli.io).
+
 # Podcasts
 
 * In March of 2017 I [spoke with Software Engineering Daily](https://softwareengineeringdaily.com/2017/03/15/stripe-observability-with-cory-watson/) about my observability work at Stripe.
