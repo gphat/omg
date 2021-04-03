@@ -4,8 +4,6 @@ title: Observability
 permalink: /observability/
 ---
 
-Observability is my specialty!
-
 Through my career as a software engineer, manager and executive common theme of observability.
 
 [Observability](https://en.wikipedia.org/wiki/Observability) is more than monitoring and charts. **Observability is a collection of techniques and tools that aim to improve understanding of complex systems. Highly observable systems should have improved ergonomics for operators, allowing them to more quickly grasp the impact of changes and the contributors to incidents.** In other words, if you don't have sensors — metrics, logs, etc — that help you understand how your service is working then you can't tell if things are going wrong!
