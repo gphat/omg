@@ -6,27 +6,23 @@ permalink: /observability/
 
 Observability is my specialty!
 
-Through my career as a software engineer, manager and executive a common love of observability has been present.
+Through my career as a software engineer, manager and executive common theme of observability.
 
 [Observability](https://en.wikipedia.org/wiki/Observability) is more than monitoring and charts. **Observability is a collection of techniques and tools that aim to improve understanding of complex systems. Highly observable systems should have improved ergonomics for operators, allowing them to more quickly grasp the impact of changes and the contributors to incidents.** In other words, if you don't have sensors — metrics, logs, etc — that help you understand how your service is working then you can't tell if things are going wrong!
 
-I've spent a lot of my time learning as much as I can about this subject as well as applying my knowledge to the things I work on. My earliest efforts were [a homegrown monitoring tool](http://onemogin.com/observability/tech/let-the-rithm-move-you.html) that I keep on GitHub for posterity.
-
 # Open Source Work
 
-* [Simple Sensor Format](https://github.com/stripe/veneur/tree/master/ssf) is a novel, new format for transmitting metrics, spans and other observability primitives.
-* [Veneur](https://github.com/stripe/veneur) is a server implementation of [Datadog's](https://datadoghq.com) [DogStatsD](http://docs.datadoghq.com/guides/dogstatsd/) that brings efficient performance and the capability to approximate "global" histogram and timer percentiles using [Ted Dunning's t-digest](https://github.com/tdunning/t-digest) approximate histograms and sets using [HyperLogLogs](https://en.wikipedia.org/wiki/HyperLogLog).
+* [Veneur](https://github.com/stripe/veneur) which [Stripe uses](https://stripe.com/blog/introducing-veneur-high-performance-and-global-aggregation-for-datadog) to power metrics and traces. Veneur brings efficient performance and the capability to approximate "global" histogram and timer percentiles using [Ted Dunning's t-digest](https://github.com/tdunning/t-digest) approximate histograms and sets using [HyperLogLogs](https://en.wikipedia.org/wiki/HyperLogLog).
 * [Censorinus](https://github.com/gphat/censorinus) is a JVM — by way of Scala, but with no other dependencies — \*StatsD client with support for both [StatsD](https://github.com/etsy/statsd) and [DogStatsD](http://docs.datadoghq.com/guides/dogstatsd/).
-* [datadog-scala](https://github.com/gphat/datadog-scala) is a Scala library for interacting with the [Datadog API](http://docs.datadoghq.com/api/).
 * [Dozens of contributions](https://github.com/datadog/dd-agent/pulls?utf8=✓&q=is%3Apr%20author%3Agphat) to [Datadog's monitoring agent](https://github.com/datadog/dd-agent) and [Integrations SDK](https://github.com/DataDog/integrations-core).
 * Perl charting library [Chart::Clicker](http://onemogin.com/chart-clicker/), with love to [Infinity Interactive](http://iinteractive.com) for being so supportive and [Stevan Little](https://twitter.com/stevanlittle) for being so inspirational.
-* Hobby Javascript charting library [Clack](http://onemogin.com/clack/).
+* [SignalFx Terraform Provider](https://github.com/splunk-terraform/terraform-provider-signalfx) which I created and maintained.
 
 # Professional Work
 
 After joining Twitter in 2012 I quickly found my calling in the Observability team. My [Observability at Twitter post](https://blog.twitter.com/2013/observability-at-twitter) was the first mention of "observability" in this context. (The team existed before me, I was just the one to share it outside of Twitter!)
 
-Upon joining Stripe in 2015 I created and led an  observability team and worked to change Stripe's culture such that observing our systems was a core concern. In that role I created [Veneur](https://github.com/stripe/veneur) which [Stripe used](https://stripe.com/blog/introducing-veneur-high-performance-and-global-aggregation-for-datadog) to power metrics and traces. I led the creation of an entirely new observability stack with minimal interruption, managed and changed vendors a few times, and contributed to large improvements in reliability and confidence at Stripe through both observability tooling and incident process.
+Upon joining Stripe in 2015 I created and led an observability team and worked to change Stripe's culture such that observing our systems was a core concern. I led the creation of an entirely new observability stack with minimal interruption, managed and changed vendors a few times, and contributed to large improvements in reliability and confidence at Stripe through both observability tooling and incident process.
 
 In 2019 I joined [SignalFx](https://www.signalfx.com) as a Technical Director. My role is a mix of advocacy, customer engagement, and product improvement. Late in 2019 [SignalFx was acquired by Splunk](https://www.signalfx.com/blog/signalfx-signs-definitive-agreement-to-be-acquired-by-splunk/).
 
@@ -88,7 +84,7 @@ Originally conceived as a set of lessons from my personal role purchasing tools 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/4lnjcAPBKQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Incidents are an amazing source of education, but we often fail to incorporate the findings into our tooling. This talk provides methods for doing just that, with a bit of help from my friends at [Jeli](https://www.jeli.io).
+Incidents are an amazing source of education, but we often fail to incorporate the findings into our observability tooling. This talk provides methods for doing just that, with a bit of help from my friends at [Jeli](https://www.jeli.io).
 
 # Podcasts
 
