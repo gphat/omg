@@ -21,12 +21,15 @@ In 2019 I joined [SignalFx](https://www.signalfx.com), later [acquired by Splunk
 
 # Speaking
 
-I speak regularly and conferences across the country promoting resilient and thoughtful, empathetic operations.
+## RubyConf 2021
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JSiESJwRmzg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Check Back Soon
+At RubyConf 2021 I spoke about finding inspiration for resilience in other industries and settings.
 
-Nothing Yet
+# Podcasts
+
+* In November of 2021 I [spoke with Software Misadventures about failure and sucess in software engineering](https://softwaremisadventures.com/podcast/2021/11/cory-watson/).
 
 # Publications
 
