@@ -29,7 +29,7 @@ At RubyConf 2021 I spoke about finding inspiration for resilience in other indus
 
 # Podcasts
 
-* In November of 2021 I [spoke with Software Misadventures about failure and sucess in software engineering](https://softwaremisadventures.com/podcast/2021/11/cory-watson/).
+* In November of 2021 I [spoke with Software Misadventures about failure and success in software engineering](https://softwaremisadventures.com/podcast/2021/11/cory-watson/).
 
 # Publications
 
