@@ -61,9 +61,9 @@ I gave at talk at the New York AWS Loft office called "Demystifying Observabilit
 
 ## Monitorama PDX 2019:
 
-I had the pleasure of giving a 5 minute "vendor talk" at Monitorama PDX 2019. These talks are sometimes product pitches, but more often they are just a chance to speak about something important/interesting for the attendees and *maybe* mention your product. I decided to talk about how to think about observability tooling inspired by [John Allpaw's "An Open Letter to Monitoring/Metrics/Alerting Companies"](https://www.kitchensoap.com/2015/05/01/openlettertomonitoringproducts/).
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TvS5conOsf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+I had the pleasure of giving a 5 minute "vendor talk" at Monitorama PDX 2019. These talks are sometimes product pitches, but more often they are just a chance to speak about something important/interesting for the attendees and *maybe* mention your product. I decided to talk about how to think about observability tooling inspired by [John Allpaw's "An Open Letter to Monitoring/Metrics/Alerting Companies"](https://www.kitchensoap.com/2015/05/01/openlettertomonitoringproducts/).
 
 ## Monitorama Baltimore 2019:
 
@@ -76,7 +76,6 @@ I spoke about a Dashboard Renaissance, or techniques and processes for making da
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HmKAjIlImcU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Originally conceived as a set of lessons from my personal role purchasing tools to my job at a vendor where I work with dozens of customers making the same decisions. This talk covers 6 different ways to improve your stance on observability from a *social* perspective.
-
 
 ## SREcon20 Americas
 
@@ -94,7 +93,3 @@ Incidents are an amazing source of education, but we often fail to incorporate t
 
 * Wrote [a guest post for Honeycomb talking about making people awesome with instrumentation](https://honeycomb.io/blog/2017/01/instrumentation-is-about-making-people-awesome/).
 * Reviewing posts and early books in the observability space, such as a technical review of [Cindy Sridharan](https://medium.com/@copyconstruct)'s [Distributed Systems Observability](http://distributed-systems-observability-ebook.humio.com).
-
-# Future
-
-I hope to continue learning, teaching and pushing Observability in to the future. I feel that it is essential to the technical and social well-being of technology companies by keeping operations and teams in tip-top shape!
