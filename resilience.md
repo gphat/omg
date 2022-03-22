@@ -34,7 +34,7 @@ At RubyConf 2021 I spoke about finding inspiration for resilience in other indus
 
 # Publications
 
-* [Technical Reviewer ](https://increment.com/reliability/letter-from-the-editor/)for [Increment: Issue 16, February 2021; Reliability](https://increment.com/reliability/)
+* [Technical Reviewer ](https://increment.com/reliability/letter-from-the-editor/)for [Increment: Issue 16, February 2021; Reliability](https://increment.com/reliability/) and [Increment: Issue 17, May 2021; Containers](https://increment.com/containers/letter-from-the-editor/).
 
 # Future
 
