@@ -20,6 +20,7 @@ In 2019 I joined [SignalFx](https://www.signalfx.com), later [acquired by Splunk
   * [Improving Automation: Working Together](http://onemogin.com/automation/improving-automation.html)
 * Contributor to Jeli's [Incident Analysis 101 series](https://www.jeli.io/blog/category/incident-analysis-101/) in [Putting It All Together](https://www.jeli.io/blog/incident-analysis-101-putting-it-all-together/).
 * I wrote [How to turn an engineering incident into an opportunity](https://leaddev.com/managing-time-crisis/how-turn-engineering-incident-opportunity) for LeadDev.
+* Explained [micro-learning opportunities](https://www.jeli.io/blog/micro-learning-opportunities/) for practical, daily improvement.
 
 # Speaking
 
