@@ -4,7 +4,7 @@ title: Resilience
 permalink: /resilience/
 ---
 
-Through a career spanning over twenty years at ISPs, eCommerce shops, and technology giants like Twitter and Stripe I have learned that [complex systems will inevitably fail](https://how.complexsystems.fail). To repair and expand these systems, we need humans! The goal is to create [adaptive capacity](https://en.wikipedia.org/wiki/Adaptive_capacity), to be resilient.
+Through a career spanning over twenty years at ISPs, eCommerce shops, and technology giants like Twitter and Stripe I have learned that [complex systems will inevitably fail](https://how.complexsystems.fail). To repair and expand these systems, we need humans! The goal is to create [adaptive capacity](https://en.wikipedia.org/wiki/Adaptive_capacity); to be resilient.
 
 # Professional Work
 
