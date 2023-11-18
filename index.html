@@ -2,24 +2,19 @@
 layout: default
 ---
 
-<div class="home">
+<h1 class="text-2xl font-bold">Posts</h1>
 
-  <h1 class="page-heading">Posts</h1>
+<ul>
+  {% for post in site.posts %}
+    {% unless post.draft %}
+    <li>
+      <span class="border-l border-gray-200">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <h3>
+        <a class="hover:underline text-rose-500" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h3>
+    </li>
+    {% endunless %}
+  {% endfor %}
+</ul>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      {% unless post.draft %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-      {% endunless %}
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
