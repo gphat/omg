@@ -1,0 +1,2 @@
+jekyll serve -P 4001
+npx tailwindcss -i css/input.css -o ./css/main.css --watch
