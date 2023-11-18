@@ -10,7 +10,9 @@ Through a career spanning over twenty years at ISPs, eCommerce shops, and techno
 
 After joining Twitter in 2012 as one of the first Site Reliability Engineers (SRE) I leaned into [observability](http://onemogin.com/observability/). While I still consider this work important, I came to the conclusion that **charts don't solve problems, people do.** This led me to invest more in learning about resilience engineering and adaptive capacity.
 
-In 2019 I joined [SignalFx](https://www.signalfx.com), later [acquired by Splunk](https://www.signalfx.com/blog/signalfx-signs-definitive-agreement-to-be-acquired-by-splunk/) and researched resilience engineering and it's precursors to inform the design of products, organizations, and tooling. In 2021 I joined [Jeli](https://www.jeli.io) to work on [incident analysis](https://www.jeli.io/howie-the-post-incident-guide/) so that organizations can more easily learn from their work.
+In 2019 I joined [SignalFx](https://www.signalfx.com), later [acquired by Splunk](https://www.signalfx.com/blog/signalfx-signs-definitive-agreement-to-be-acquired-by-splunk/) and researched resilience engineering and it's precursors to inform the design of products, organizations, and tooling. In 2021 I joined [Jeli](https://www.jeli.io), later acquired by [PagerDuty](https://www.pagerduty.com), to work on [incident analysis](https://www.jeli.io/howie-the-post-incident-guide/) so that organizations can more easily learn from their work.
+
+Most recently I founded Oilcan and created [Hotpot](https://www.hotpot.works).
 
 # Writing
 
@@ -36,7 +38,7 @@ At RubyConf 2021 I spoke about finding inspiration for resilience in other indus
 
 # Publications
 
-* [Technical Reviewer ](https://increment.com/reliability/letter-from-the-editor/)for [Increment: Issue 16, February 2021; Reliability](https://increment.com/reliability/) and [Increment: Issue 17, May 2021; Containers](https://increment.com/containers/letter-from-the-editor/).
+* [Technical Reviewer](https://increment.com/reliability/letter-from-the-editor/) for [Increment: Issue 16, February 2021; Reliability](https://increment.com/reliability/) and [Increment: Issue 17, May 2021; Containers](https://increment.com/containers/letter-from-the-editor/).
 
 # Future
 
