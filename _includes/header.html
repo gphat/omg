@@ -1,20 +1,14 @@
-<header class="border-b border-gray-500">
+<header class="p-3 border-b border-gray-500">
 
-  <div class="">
+  <div class="flex items-center">
 
     <a class="text-xl" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
-    <nav class="">
-      <a href="#" class="menu-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-        </svg>
-      </a>
-
-      <div class="">
-        <a class="" href="{{ '/observability' | prepend: site.baseurl }}">Observability</a>
-        <a class="" href="{{ '/resilience' | prepend: site.baseurl }}">Resilience</a>
-        <a class="" href="{{ '/about' | prepend: site.baseurl }}">About</a>
+    <nav class="ml-auto text-sm">
+      <div class="px-5 py-3 rounded-2xl shadow-md border border-gray-200 space-x-3">
+        <a class="underline text-rose-500 hover:text-rose-600" href="{{ '/observability' | prepend: site.baseurl }}">Observability</a>
+        <a class="underline text-rose-500 hover:text-rose-600" href="{{ '/resilience' | prepend: site.baseurl }}">Resilience</a>
+        <a class="underline text-rose-500 hover:text-rose-600" href="{{ '/about' | prepend: site.baseurl }}">About</a>
       </div>
     </nav>
 
