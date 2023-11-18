@@ -5,7 +5,7 @@ plugins:
 title: One Mo' Gin
 email: cory@onemogin.com
 description: > # this means to ignore newlines until "baseurl:"
-  The definitely professional website of Cory G Watson.
+  &copy; Cory Watson. All rights reserved.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://onemogin.com" # the base hostname & protocol for your site
 #twitter_username: gphat
