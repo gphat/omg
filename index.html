@@ -2,19 +2,29 @@
 layout: default
 ---
 
-<h1 class="text-2xl font-bold">Posts</h1>
 
-<ul>
+<p class="prose prose-neutral lg:prose-lg dark:prose-invert prose-a:text-rose-500">I'm Cory, a software engineer, SRE, and all-around swell guy based in Nashville, TN. I'm the founder and CEO of Oilcan, makers of <a href="https://www.hotpot.works">Hotpot</a> where we're developing tools to increase resilience.</p>
+
+<h1 class="text-xl font-bold">Posts</h1>
+
+<ul class="-mx-3 mt-3 space-y-5">
   {% for post in site.posts %}
     {% unless post.draft %}
-    <li>
-      <span class="border-l border-gray-200">{{ post.date | date: "%b %-d, %Y" }}</span>
-      <h3>
-        <a class="hover:underline text-rose-500" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h3>
+    <li class="p-3 rounded-md hover:bg-gray-50">
+      <a class="space-y-1.5" href="{{ post.url | prepend: site.baseurl }}">
+        <span class="border-l-2 pl-3 text-sm text-gray-400 border-gray-200">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h3 class="text-lg font-semibold">{{ post.title }}</h3>
+        <p class="text-gray-400 text-sm">{{ post.summary }}</p>
+        <p class="flex items-center text-rose-500">
+          Read article
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
+            <path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+          </svg>
+        </p>
+      </a>
     </li>
     {% endunless %}
   {% endfor %}
 </ul>
 
-<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<p>Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
