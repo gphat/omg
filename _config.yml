@@ -1,3 +1,6 @@
+plugins:
+  - jekyll-paginate
+
 # Site settings
 title: One Mo' Gin
 email: cory@onemogin.com
@@ -9,6 +12,7 @@ url: "http://onemogin.com" # the base hostname & protocol for your site
 github_username:  gphat
 linkedin_username: gphat
 title_image: "http://onemogin.com/assets/images/cory-noggin.jpeg"
+paginate: 5
 
 # outputting
 permalink: none
