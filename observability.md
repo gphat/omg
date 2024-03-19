@@ -63,7 +63,7 @@ I gave at talk at the New York AWS Loft office called "Demystifying Observabilit
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/TvS5conOsf4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-I had the pleasure of giving a 5 minute "vendor talk" at Monitorama PDX 2019. These talks are sometimes product pitches, but more often they are just a chance to speak about something important/interesting for the attendees and *maybe* mention your product. I decided to talk about how to think about observability tooling inspired by [John Allpaw's "An Open Letter to Monitoring/Metrics/Alerting Companies"](https://www.kitchensoap.com/2015/05/01/openlettertomonitoringproducts/).
+I had the pleasure of giving a 5 minute "vendor talk" at Monitorama PDX 2019. These talks are sometimes product pitches, but more often they are just a chance to speak about something important/interesting for the attendees and *maybe* mention your product. I decided to talk about how to think about observability tooling inspired by [John Allspaw's "An Open Letter to Monitoring/Metrics/Alerting Companies"](https://www.kitchensoap.com/2015/05/01/openlettertomonitoringproducts/).
 
 ## Monitorama Baltimore 2019:
 
